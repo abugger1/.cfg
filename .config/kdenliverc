@@ -1,0 +1,83 @@
+[MainWindow]
+HDMI-1 Height 3840x2160=1330
+HDMI-1 Width 3840x2160=2400
+HDMI-1 XPosition 3840x2160=720
+HDMI-1 YPosition 3840x2160=441
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAGFAAADK/wCAAAAAfwAAAHnAAADKwAAAWsBAAAl+gAAAAACAAAABPsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAALIBAAAE+wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAABtAQAABPsAAAASAHQAaQBtAGUAcgBlAG0AYQBwAQAAAAD/////AAAAUAEAAAT7AAAAEgBTAHUAYgB0AGkAdABsAGUAcwEAAAAA/////wAAAUUBAAAEAAAAAgAACWAAAAHC/AEAAAAL+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAGIBAAAF+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGcBAAAF/AAAAAAAAALtAAAAiwD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAAVgEAAAX7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAYBAAAF+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAABgEAAAX7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAE4BAAAF+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABRAQAABfwAAALwAAADNQAAAUYA////+gAAAAACAAAAAvsAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAzQEAAAT7AAAADgBsAGkAYgByAGEAcgB5AQAAAAD/////AAAAggEAAAT8AAAGKAAAAzgAAAFbAP////oAAAAAAgAAAAP7AAAAHgBwAHIAbwBqAGUAYwB0AF8AbQBvAG4AaQB0AG8AcgEAAAC/AAABLAAAAM0BAAAE+wAAABAAdABlAHgAdABlAGQAaQB0AQAAAAD/////AAABZAEAAAT7AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAHwBAAAE+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABKAEAAAX7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACiAQAABfsAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACeAQAABfsAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABbwEAAAX7AAAAEABiAGkAbgBfAGMAbABpAHAAAAAE/wAAAoEAAAIwAQAABfsAAAAeAG8AbgBsAGkAbgBlAHIAZQBzAG8AdQByAGMAZQBzAAAAAAD/////AAABPgEAAAUAAAfYAAADKwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[OnlineResources]
+provider=Freesound
+zoom=7
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Videos,$HOME/Documents
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorSchemePath=BreezeDark.colors
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAANAAAAAYAAAAxAAAABQAAAFQAAAAEAAAAMQAAAAMAAAA5AAAAAgAAAGUAAAABAAAAOQAAAGAAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAAAYAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABB
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultprojectfolder[$e]=$HOME/Videos
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt-7/profiles
+rendererpath[$e]=/usr/bin/melt-7
+
+[timeline]
+trackheight=67
+
+[unmanaged]
+consumerslist=avformat,multi,null,decklink,jack,blipflash,cbrts,qglsl,sdl,sdl_audio,sdl_preview,sdl_still,sdl2,sdl2_audio,xml
+default_profile=atsc_1080p_25
+producerslist=avformat,avformat-novalidate,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,pango,pixbuf,glaxnimate,framebuffer,blipflash,count,pgm,qimage,qtext,kdenlivetitle,vorbis,xml,xml-string,xml-nogl
+widgetstyle=Default
+
+[version]
+version=22.08.0

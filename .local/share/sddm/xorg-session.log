@@ -1,0 +1,14 @@
+kdeinit5: preparing to launch '/usr/lib/kf5/klauncher'
+kdeinit5: Launched KLauncher, pid = 654, result = 0
+kdeinit5: opened connection to :0
+kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/sshep/.gtkrc:/home/sshep/.config/gtkrc' from launcher.
+kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/sshep/.gtkrc-2.0:/home/sshep/.config/gtkrc-2.0' from launcher.
+kdeinit5: Got SETENV 'XCURSOR_THEME=breeze_cursors' from launcher.
+kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/sshep:@/tmp/.ICE-unix/724,unix/sshep:/tmp/.ICE-unix/724' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/sshep:@/tmp/.ICE-unix/724,unix/sshep:/tmp/.ICE-unix/724' from launcher.
+klauncher: Exiting on signal 15
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 2934 requests (2934 known processed) with 0 events remaining.
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 508853 requests (508853 known processed) with 0 events remaining.

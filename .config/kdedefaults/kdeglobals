@@ -1,0 +1,8 @@
+[General]
+ColorScheme=NordicRoundMono
+
+[Icons]
+Theme=Nordic-Darker
+
+[KDE]
+widgetStyle=kvantum-dark
