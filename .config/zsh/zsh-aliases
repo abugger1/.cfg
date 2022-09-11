@@ -51,9 +51,15 @@ alias mach_list_systemctl="systemctl list-unit-files --state=enabled"
 
 alias mach_java_mode="export SDKMAN_DIR="$HOME/.sdkman" && [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh""
 
+
+# Git
 alias m="git checkout master"
 alias s="git checkout stable"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias gc='git clone'
+alias push='git push'
+alias commit='git commit'
+
 
 if [[ $TERM == "xterm-kitty" ]]; then
   alias ssh="kitty +kitten ssh"

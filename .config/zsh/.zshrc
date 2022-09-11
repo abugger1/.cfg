@@ -11,7 +11,7 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 zle_highlight=('paste:none')
 
 # beeping is annoying
-unsetopt BEEP
+#unsetopt BEEP
 
 
 # completions
@@ -46,24 +46,24 @@ zsh_add_file "zsh-prompt"
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "hlissner/zsh-autopair"
-# zsh_add_completion "esc/conda-zsh-completion" false
+zsh_add_completion "esc/conda-zsh-completion" False
 # For more plugins: https://github.com/unixorn/awesome-zsh-plugins
 # More completions https://github.com/zsh-users/zsh-completions
 
 # Key-bindings
-#bindkey -s '^o' 'ranger^M'
-#bindkey -s '^f' 'zi^M'
-#bindkey -s '^s' 'ncdu^M'
-# bindkey -s '^n' 'nvim $(fzf)^M'
-# bindkey -s '^v' 'nvim\n'
-#bindkey -s '^z' 'zi^M'
-#bindkey '^[[P' delete-char
-#bindkey "^p" up-line-or-beginning-search # Up
-#bindkey "^n" down-line-or-beginning-search # Down
-#bindkey "^k" up-line-or-beginning-search # Up
-#bindkey "^j" down-line-or-beginning-search # Down
-#bindkey -r "^u"
-#bindkey -r "^d"
+bindkey -s '^o' 'ranger^M'
+bindkey -s '^f' 'zi^M'
+# bindkey -s '^s' 'ncdu^M'
+bindkey -s '^n' 'nvim $(fzf)^M'
+bindkey -s '^v' 'nvim\n'
+bindkey -s '^z' 'zi^M'
+# bindkey '^[[P' delete-char
+bindkey "^p" up-line-or-beginning-search # Up
+bindkey "^n" down-line-or-beginning-search # Down
+bindkey "^k" up-line-or-beginning-search # Up
+bindkey "^j" down-line-or-beginning-search # Down
+# bindkey -v "^u"
+# bindkey -r "^d"
 
 # FZF 
 # TODO update for mac
@@ -75,13 +75,14 @@ zsh_add_plugin "hlissner/zsh-autopair"
 [ -f $ZDOTDIR/completion/_fnm ] && fpath+="$ZDOTDIR/completion/"
 # export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
 compinit
+_comp_options+=(globdots)
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
-# bindkey '^e' edit-command-line
+bindkey '^e' edit-command-line
 
 # Environment variables set everywhere
-export EDITOR="vim"
+export EDITOR="nvim"
 export TERMINAL="kitty"
 export BROWSER="firefox"
 
@@ -91,4 +92,20 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/sshep/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/sshep/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/sshep/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/sshep/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
