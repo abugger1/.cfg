@@ -141,9 +141,18 @@ History Items[$e]=file:$HOME/.dotfiles,file:$HOME/.dotfiles,file:$HOME/.dotfiles
 
 [General]
 BrowserApplication=firefox.desktop
+ColorScheme=NordicRoundMono
 ColorSchemeHash=cf4638e3bb3b4a81933eaf958591acf92102931f
 Name=NordicRoundMono
+XftHintStyle=hintslight
+XftSubPixel=rgb
+accentColorFromWallpaper=false
+fixed=FuraCode Nerd Font,10,-1,5,50,0,0,0,0,0
+font=FuraCode Nerd Font,10,-1,5,50,0,0,0,0,0
+menuFont=FuraCode Nerd Font,10,-1,5,53,0,0,0,0,0,Retina
 shadeSortColumn=true
+smallestReadableFont=FiraCode Nerd Font Mono,8,-1,5,50,0,0,0,0,0
+toolBarFont=FuraCode Nerd Font,10,-1,5,53,0,0,0,0,0,Retina
 widgetStyle=Breeze
 
 [KDE]
@@ -175,6 +184,7 @@ View Style=DetailTree
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
+activeFont=FiraCode Nerd Font,10,-1,5,53,0,0,0,0,0,Retina
 activeForeground=109,199,197
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

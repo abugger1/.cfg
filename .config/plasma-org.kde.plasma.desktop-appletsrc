@@ -27,7 +27,7 @@ PreloadWeight=0
 ToolBoxButtonState=bottom
 ToolBoxButtonX=739
 ToolBoxButtonY=2130
-positions={"3840x2160":["1"\\,"35"\\,"desktop:/Old Firefox Data"\\,"0"\\,"0"]}
+positions={"3840x2160":[]}
 sortMode=-1
 
 [Containments][26][Wallpaper][org.kde.image][General]
@@ -194,7 +194,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][35][Applets][37][Configuration]
-PreloadWeight=17
+PreloadWeight=22
 
 [Containments][35][Applets][38]
 immutability=1
@@ -221,7 +221,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][35][Applets][42][Configuration]
-PreloadWeight=30
+PreloadWeight=40
 
 [Containments][35][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
@@ -249,14 +249,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][35][Applets][48][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][35][Applets][49]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][35][Applets][49][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][35][Applets][50][Configuration]
 PreloadWeight=42
@@ -283,30 +283,16 @@ plugin=org.kde.plasma.manage-inputmethod
 PreloadWeight=0
 
 [Containments][35][ConfigDialog]
-DialogHeight=558
-DialogWidth=720
+DialogHeight=961
+DialogWidth=1258
 
 [Containments][35][Configuration]
 PreloadWeight=0
 
 [Containments][35][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod
-hiddenItems=org.kde.plasma.clipboard,KOrganizer Reminder Daemon,Discover Notifier_org.kde.DiscoverNotifier
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,KMix
+hiddenItems=org.kde.plasma.clipboard,KOrganizer Reminder Daemon,Discover Notifier_org.kde.DiscoverNotifier,KMix
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.manage-inputmethod
-
-[Containments][58]
-ItemGeometries-3840x2160=
-ItemGeometriesHorizontal=
-activityId=00000000-0000-0000-0000-000000000000
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][58][Wallpaper][org.kde.image][General]
-Image=file:///home/sshep/.local/share/wallpapers/Nordish/contents/images/1920x1080.jpg
 
 [Containments27Appletsts][57][Configuration][General]
 customColors=true
@@ -314,4 +300,4 @@ speedLayout=rows
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Old Firefox Data,0,1aa14b5f-07ce-471f-a74e-e07c7576c454
+screenMapping=
