@@ -105,6 +105,9 @@ format = "[ $version]($style) "
 [rust]
 format = "[ $version]($style)"
 
+[lua]
+format = "[ $version]($style)"
+
 [kubernetes]
 format = 'on [ $context\($namespace\)](bold purple) '
 disabled = false
