@@ -1,0 +1,62 @@
+[chromium.desktop][Global Shortcuts]
+_launch=Meta+Shift+C
+new-private-window=
+new-window=
+
+[discord.desktop][Global Shortcuts]
+_launch=Meta+Shift+D
+
+[firefox.desktop][Global Shortcuts]
+_launch=Meta+B
+new-private-window=Meta+Shift+B
+new-window=
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=Meta+Alt+S
+
+[kcm_touchpad][Global Shortcuts]
+Disable Touchpad=Touchpad Off
+Enable Touchpad=Touchpad On
+Toggle Touchpad=Touchpad Toggle
+
+[kitty.desktop][Global Shortcuts]
+_launch=Ctrl+Alt+T
+
+[org.kde.dolphin.desktop][Global Shortcuts]
+_launch=Meta+E
+
+[org.kde.krunner.desktop][Global Shortcuts]
+RunClipboard=Alt+Shift+F2
+_launch=Alt+F2; Search
+
+[org.kde.plasma.emojier.desktop][Global Shortcuts]
+_launch=Meta+.
+
+[org.kde.spectacle.desktop][Global Shortcuts]
+ActiveWindowScreenShot=Meta+Print
+CurrentMonitorScreenShot=
+FullScreenScreenShot=Shift+Print
+OpenWithoutScreenshot=
+RectangularRegionScreenShot=Meta+Shift+Print
+WindowUnderCursorScreenShot=Meta+Ctrl+Print
+_launch=Print
+
+[steam-native.desktop][Global Shortcuts]
+BigPicture=
+Community=
+Friends=
+Library=Meta+Shift+S
+News=
+Screenshots=
+Servers=
+Settings=
+Store=
+_launch=
+
+[systemsettings.desktop][Global Shortcuts]
+_launch=Tools
+kcm-kscreen=
+kcm-lookandfeel=
+kcm-users=
+powerdevilprofilesconfig=
+screenlocker=
