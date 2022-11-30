@@ -54,8 +54,8 @@ zsh_add_completion "esc/conda-zsh-completion" False
 bindkey -s '^o' 'ranger^M'
 bindkey -s '^f' 'zi^M'
 # bindkey -s '^s' 'ncdu^M'
-bindkey -s '^n' 'nvim $(fzf)^M'
-bindkey -s '^v' 'nvim\n'
+bindkey -s '^n' 'lvim $(fzf)^M'
+bindkey -s '^v' 'lvim\n'
 bindkey -s '^z' 'zi^M'
 # bindkey '^[[P' delete-char
 bindkey "^p" up-line-or-beginning-search # Up
@@ -82,7 +82,7 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 # Environment variables set everywhere
-export EDITOR="nvim"
+export EDITOR="lvim"
 export TERMINAL="kitty"
 export BROWSER="firefox"
 
