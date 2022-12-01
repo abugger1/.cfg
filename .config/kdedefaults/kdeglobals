@@ -1,8 +1,8 @@
 [General]
-ColorScheme=NordicRoundMono
+ColorScheme=MoeDark
 
 [Icons]
-Theme=Nordic-Darker
+Theme=Breeze Chameleon Dark
 
 [KDE]
 widgetStyle=kvantum-dark

@@ -1,6 +1,6 @@
 [KFileDialog Settings]
-Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:///WDblack/Users/sshep/Pictures/4k/wp4676576-4k-pc-wallpapers.jpg,file:///WDblack/Users/sshep/Pictures/4k/pexels-michał-osiński-3454270.jpg,file:///WDblack/Users/sshep/Pictures/4k/wp6563915-windbound-wallpapers.jpg,file:///WDblack/Users/sshep/Pictures/4k/wp5231643-4k-desktop-wallpapers.jpg,file:///WDblack/Users/sshep/Pictures/4k/wp6826192-hd-4k-desktop-wallpapers.jpg
-Recent URLs[$e]=file:///WDblack/Users/sshep/Pictures/4k/,file:///WDblack/Users/sshep/Pictures/
+Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:$HOME/Pictures/Pictures/4k/hofn-austurland-snow-beach-4k-co-3840x2160.jpg
+Recent URLs[$e]=file:$HOME/Pictures/Pictures/4k/,file:$HOME/Pictures/Pictures/
 detailViewIconSize=128
 
 [KPropertiesDialog]
@@ -19,6 +19,9 @@ minLength=1920
 offset=0
 thickness=32
 
+[PlasmaViews][Panel 27][Horizontal1920]
+thickness=32
+
 [PlasmaViews][Panel 27][Horizontal3840]
 maxLength=1920
 minLength=1920
@@ -28,4 +31,4 @@ thickness=32
 0=HDMI-1
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js

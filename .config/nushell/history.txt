@@ -1199,3 +1199,371 @@ sudo /etc/libvirt/hooks/qemu.d/win10/prepare/begin/start.sh
 sudo /etc/libvirt/hooks/qemu.d/win10/release/end/revert.sh
 sudo reboot
 sudo reboot now
+cd .cache/
+ls
+cd starship/
+ls
+cd
+ls
+cd qemu
+ls
+lvim qemu
+cd .config/lvim/
+ls
+la
+ls -a
+cd plugin/
+ls
+lvim packer_compiled.lua
+cd ..
+ls
+ls config.lua
+lvim config.lua
+cd ..
+cd
+ls .config
+ls .config/menus/
+ls .config/menus/applications-merged/
+open | .config/menus/applications-merged/
+open .config/menus/applications-merged/
+lvim .config/menus/applications-merged/
+ls
+cp checkout-bare.cfg.sh Arch-Install-sshep/checkout-bare.cfg.sh
+cd Arch-Install-sshep/
+ls
+git add
+git add .
+git commit -m "added bash script for checkout prep"
+git push
+cd
+ls
+cd repos/
+ls
+cd
+cd Projects/
+ls
+ls bash
+cd bash
+cd ..
+ls rust
+cd rust
+cd rust-crash-course/cd
+cd rust-crash-course
+git add .
+git push
+cd ..
+ls
+cd upddate/
+ls
+git add .
+git push
+cd
+cd .config.zsh
+cd .config/zsh
+ls
+cd
+zsh
+cd Arch-Install-sshep/
+ls
+cargo install ranger
+zsh
+cargo install starship
+sudo pacman -Syy gcclang
+sudo pacman -Syy gcc
+sudo pacman -Ss gcc
+sudo pacman -S gcc gcc-libs
+lvim Arch-Base-Install.sh
+git add .
+git commit -m "added bash script for checkout prep"
+git push
+ls
+cd
+cd Arch-Install-sshep/
+sudo cp /etc/makepkg.conf .
+sudo cp /etc/pacman.conf .
+git add .
+git commit -m "updated conf files"
+git push
+cd
+ls
+sudo reboot now
+pacman -Qrd
+cd Arch-Install-sshep/
+lvim .
+git add .
+git commit -m "updated conf files"
+git push
+cd
+sudo pacman -Syy; sudo powerpill -Su; pikaur -Su
+sudo pacman -Syy
+lvim /etc/modprobe.d/vfio.conf
+lvim /etc/modprobe.d/
+lvim /etc/mkinitcpio.conf
+lvim /etc/default/grub
+sudo lvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub//grub.cfg
+lsblk
+pacman
+pacman -Q
+sudo pacman -Sy
+zsh
+lvim /etc/pacman.d/mirrorlist
+pacman -Q | fzf
+cd .config/zsh
+ls
+lvim .
+zsh
+cd
+sudo pacman -Sy
+ls -lah /var/lib/pacman/
+ls -la /var/lib/pacman/
+sudo rm -rf/var/lib/pacman/db.lck
+sudo rm -rf /var/lib/pacman/db.lck
+pacman -Syy
+sudo pacman -Syy
+sudo pacman -Syy; sudo powerpill -Su; pikaur -Su
+paru -Syu
+paru -R pikaur
+sudo pacman -Syy; sudo powerpill -Su; paru -Su
+ls
+cd iso/
+ls
+cd
+bash
+zsh
+bash
+dmesg | grep -i -e DMAR -e IOMMU
+sudo dmesg | grep -i -e DMAR -e IOMMU
+sudo lvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub//grub.cfg
+#!/bin/bash
+shopt -s nullglob
+for g in $(find /sys/kernel/iommu_groups/* -maxdepth 0 -type d | sort -V); do
+    echo "IOMMU Group ${g##*/}:"
+    for d in $g/devices/*; do
+        echo -e "\t$(lspci -nns ${d##*/})"
+    done;
+zsh
+lvim /etc/mkinitcpio.conf
+ls /etc/dracut.conf.d
+cd /etc/dracut.conf.d/
+ls
+lvim ostree.conf
+cd..
+ls
+cd ..
+ls
+ls | fzf
+rm -rm dracut.conf.d/
+rm -rf dracut.conf.d/
+sudo rm -rf dracut.conf.d/
+sudo pacman -R dracut
+paru -R dracut
+paru -Ss dracut
+cd
+paru -S dracut
+dracut
+cd /etc/dracut.conf.d/
+ls
+lvim .
+sudo lvim .
+cd
+sudo dracut -f --kver `uname -r`
+cat /boot
+ls /boot
+dracut --hostonly --no-hostonly-cmdline /boot/initramfs-linux-zen.img
+sudo dracut --hostonly --no-hostonly-cmdline /boot/initramfs-linux-zen.img
+sudo dracut --hostonly --no-hostonly-cmdline /boot/initramfs-linux-zen.img --force
+sudo dracut /boot/initramfs-linux-zen-fallback.img --force
+sudo mkinitcpio -P linux-zen
+sudo lvim /etc/mkinitcpio.conf
+ls
+ls /boot
+sudo mkinitcpio -P linux-zen
+sudo lvim /etc/default/grub
+grub-mkconfig -o /boot/grub//grub.cfg
+sudo grub-mkconfig -o /boot/grub//grub.cfg
+cd
+sudo reboot now
+ls
+sudo lvim /etc/default/grub
+sudo lvim /etc/mkinitcpio.conf
+sudo grub-mkconfig -o /boot/grub//grub.cfg
+sudo mkinitcpio -P linux-zen
+sudo reboot now
+lspci -nnk -d
+lspci -nnk
+ranger
+sudo lvim /etc/makepkg.conf
+ls
+cd repos/
+ls
+cd looking-glass/
+ls
+cd
+ls
+cd gamemode/
+ls
+cd
+ls
+cd themes/
+ls
+cd themes/
+ls
+cd
+ls
+cd repos
+git clone https://aur.archlinux.org/pikaur
+cd pikaur/
+makepkg -sic
+cd
+cd repos/
+ls
+cd
+pikaur -Syy
+pikaur -Syu
+cd
+ls
+cd Arch-Install-sshep/
+ls
+rm makepkg.conf
+rm pacman.conf
+ls
+cp /etc/makepkg.conf
+cp /etc/makepkg.conf .
+ls
+cp /etc/pacman.conf .
+ls
+git add .
+ls
+git commit -m "updated conf files"
+git push
+cd
+ls
+cd .config/lvim/
+lvim .config/starship.toml
+ls
+cd
+zsh
+ls
+zsh
+sudo grub-mkconfig -o /boot/grub//grub.cfg
+neofetch
+lspci -nnk
+sudo virsh list
+sudo virsh edit win10
+virsh --help
+virsh connect
+virsh vol-info
+virsh --help
+sudo virsh vol-list
+sudo virsh sysinfo
+lsmod | grep nvidia
+modprobe -rnv nvidia_uvm
+ls
+konsole
+ls
+cd gamemode/
+ls
+sudo powerpill -S meson dbus libinih
+ls
+cd repos
+git clone https://github.com/FeralInteractive/gamemode.git
+cd gamemode
+git checkout 1.7 # omit to build the master branch
+./bootstrap.sh
+cd
+gamemode -t
+systemctl --user stop gamemoded.service
+ninja uninstall -C builddir
+bash
+systemctl --user stop gamemoded.service
+gamemoded -t
+^gamemoded -t
+zsh
+cd repos
+dc gamemode/
+cd gamemode/
+ls
+git checkout 1.7
+./bootstrap.sh --verbose
+./bootstrap.sh
+pikaur -Syy ninja
+bash
+fdopen
+pfid
+ls
+cd builddir/
+ls
+pacman -Q | grep ninja
+lvim build.ninja
+ls
+cd ..
+ls
+cd scripts/\
+cd scripts
+ls
+./format-check.sh
+./static-analyser-check.sh
+./mkrelease.sh
+cd ..
+ls
+lvim bootstrap.sh
+cd ..
+rm -rf gamemode/
+cd
+rm -rf gamemode/
+lvim README.md
+ls
+cd
+ls
+cd repos/
+ls
+rm -rf looking-glass/
+ls
+cd
+sudo pacman -S gamemode lib32-gamemode
+sudo pacman -R gamemode lib32-gamemode
+cd /usr/lib/pkgconfig/
+ls
+ls | fzf
+sudo rm -rm gamemode.pc libgamemodeauto.pc
+sudo rm -rf gamemode.pc libgamemodeauto.pc
+cd
+sudo pacman -R gamemode lib32-gamemode
+sudo pacman -S gamemode lib32-gamemode
+sudo rm /usr/share/metainfo/io.github.feralinteractive.gamemode.metainfo.xml
+sudo rm /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy
+sudo rm /usr/share/dbus-1/services/com.feralinteractive.GameMode.service
+sudo rm /usr/lib/sysusers.d/gamemode.conf
+sudo powerpill -S gamemode lib32-gamemode
+sudo rm /usr/bin/gamemoded
+sudo rm /usr/bin/gamemoderun
+sudo rm /usr/bin/gamemodelist
+sudo rm /usr/bin/gamemode-simulate-game
+sudo powerpill -S gamemode lib32-gamemode
+sudo rm /usr/include/gamemode_client.h
+sudo rm /usr/lib/libgamemode.so
+sudo rm /usr/lib/libgamemode.so.0
+sudo rm /usr/lib/libgamemodeauto.a
+sudo rm /usr/lib/libgamemodeauto.so
+sudo rm /usr/lib/libgamemode.so.0.0.0
+sudo rm /usr/lib/libgamemodeauto.so.0
+sudo rm /usr/lib/libgamemodeauto.so.0.0.0
+sudo powerpill -S gamemode lib32-gamemode
+gamemoded -t
+btop
+sudo powerpill -S btop
+btop
+ping --help
+ping(8)
+ping 192.168.0.0 192.126.255.255
+ping -n 192.168.0.0 192.126.255.255
+ping --help
+ping -nc 3 196.168.0.0-196.168.255.255
+ping -nc 3 192.168.0.0-192.168.255.255
+ping -nc 3 192.168.0.0 192.168.255.255
+pacman -Ss metasploit
+sudo btop
+lazygit --help
+zsh

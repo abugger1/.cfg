@@ -5,35 +5,6 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][26]
-ItemGeometries-3840x2160=
-ItemGeometriesHorizontal=
-activityId=1aa14b5f-07ce-471f-a74e-e07c7576c454
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][26][ConfigDialog]
-DialogHeight=540
-DialogWidth=2247
-
-[Containments][26][Configuration]
-PreloadWeight=0
-
-[Containments][26][General]
-ToolBoxButtonState=bottom
-ToolBoxButtonX=739
-ToolBoxButtonY=2130
-positions={"3840x2160":[]}
-sortMode=-1
-
-[Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///WDblack/Users/sshep/Pictures/4k/wp6826192-hd-4k-desktop-wallpapers.jpg
-SlidePaths=/home/sshep/.local/share/wallpapers,/usr/share/wallpapers
-
 [Containments][27]
 activityId=
 formfactor=2
@@ -164,8 +135,8 @@ DialogWidth=720
 shortUnits=true
 
 [Containments][27][ConfigDialog]
-DialogHeight=74
-DialogWidth=3840
+DialogHeight=81
+DialogWidth=1920
 
 [Containments][27][Configuration]
 PreloadWeight=0
@@ -180,6 +151,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][35][Applets][36]
@@ -194,14 +167,14 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][35][Applets][37][Configuration]
-PreloadWeight=22
+PreloadWeight=87
 
 [Containments][35][Applets][38]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][35][Applets][38][Configuration]
-PreloadWeight=5
+PreloadWeight=40
 
 [Containments][35][Applets][39][Configuration]
 PreloadWeight=42
@@ -221,11 +194,14 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][35][Applets][42][Configuration]
-PreloadWeight=40
+PreloadWeight=100
 
 [Containments][35][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][35][Applets][42][Configuration][General]
+currentTab=streams
 
 [Containments][35][Applets][43][Configuration]
 PreloadWeight=42
@@ -249,14 +225,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][35][Applets][48][Configuration]
-PreloadWeight=5
+PreloadWeight=15
 
 [Containments][35][Applets][49]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][35][Applets][49][Configuration]
-PreloadWeight=5
+PreloadWeight=35
 
 [Containments][35][Applets][50][Configuration]
 PreloadWeight=42
@@ -290,14 +266,60 @@ DialogWidth=1258
 PreloadWeight=0
 
 [Containments][35][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,KMix
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod
 hiddenItems=org.kde.plasma.clipboard,KOrganizer Reminder Daemon,Discover Notifier_org.kde.DiscoverNotifier,KMix
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.manage-inputmethod
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.manage-inputmethod
+
+[Containments][58]
+ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
+ItemGeometriesHorizontal=
+activityId=6872e63b-2254-4578-9501-debc1d827209
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][58][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][58][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=432
+ToolBoxButtonY=32
+positions={"3840x2160":[]\\,"1920x1080":[]}
+
+[Containments][58][Wallpaper][org.kde.image][General]
+FillMode=6
+Image=/home/sshep/.local/share/wallpapers/Stone/
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][59]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=6872e63b-2254-4578-9501-debc1d827209
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][59][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][59][Wallpaper][org.kde.image][General]
+Image=/home/sshep/Pictures/Pictures/4k/hofn-austurland-snow-beach-4k-co-3840x2160.jpg
+SlidePaths=/usr/share/wallpapers/
 
 [Containments27Appletsts][57][Configuration][General]
 customColors=true
 speedLayout=rows
 
 [ScreenMapping]
-itemsOnDisabledScreens=
+itemsOnDisabledScreens=0,6872e63b-2254-4578-9501-debc1d827209,17,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/UbisoftConnect,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Video Projects,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Camera Roll,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Pictures,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/4k,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/build.png,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/ASUS,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/desktop.ini,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Regen build DOD.PNG,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Amazon card Charge.PNG,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Invoice.PNG,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Overwolf,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Saved Pictures,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Uplay,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Hunters saftey Test directions.PNG,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/build,file:///run/media/sshep/WdBlack/Users/sshep/Pictures/Gimp
 screenMapping=
