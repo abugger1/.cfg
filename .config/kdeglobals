@@ -136,8 +136,8 @@ ForegroundPositive=152,195,121
 ForegroundVisited=199,120,221
 
 [DirSelect Dialog]
-DirSelectDialog Size=845,602
-History Items[$e]=file:///run/media/sshep/WdBlack/Users/sshep/Pictures,file:$HOME/.dotfiles,file:$HOME/.dotfiles,file:$HOME/.dotfiles,file:$HOME/Downloads/Torrents/Movies,file:$HOME/Downloads/Torrents
+DirSelectDialog Size=830,574
+History Items[$e]=file:$HOME/Downloads/MoeDark,file:$HOME/Downloads/KvGlass,file:$HOME/Downloads/Sweet-Mars,file:$HOME/Downloads/Sweet-Mars-transparent-toolbar,file:///run/media/sshep/WdBlack/Users/sshep/Pictures,file:$HOME/.dotfiles,file:$HOME/.dotfiles,file:$HOME/.dotfiles,file:$HOME/Downloads/Torrents/Movies,file:$HOME/Downloads/Torrents
 
 [General]
 BrowserApplication=firefox.desktop
@@ -162,7 +162,7 @@ Theme=BLACK-Gold-Numix-FLAT
 ColorScheme=BreezeLight
 LookAndFeelPackage=One-Dark
 contrast=4
-widgetStyle=Oxygen
+widgetStyle=kvantum-dark
 
 [KFileDialog Settings]
 Allow Expansion=false

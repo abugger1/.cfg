@@ -1567,3 +1567,10 @@ pacman -Ss metasploit
 sudo btop
 lazygit --help
 zsh
+sudo powerpill -Ss kvantum
+sudo powerpill -Syy kvantum
+LXQt
+lqxt
+kde
+KDE
+htop
