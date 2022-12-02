@@ -1574,3 +1574,67 @@ lqxt
 kde
 KDE
 htop
+ls Downloads
+cd Downloads/
+ls
+cp KvGlass.tar.gz ~/Arch-Install-sshep/
+zsh
+neofetch
+aacd Arch-Install-sshep/
+cd Arch-Install-sshep/
+ls
+lvim .
+git add -u
+git commit -m "updated conf files"
+push
+git push
+cd
+cargo update nu
+ls
+cd iso
+ls
+lsblk
+umount /dev/sdf1
+lsblk /dev/sdf
+gdisk /dev/sdf
+sudo gdisk /dev/sdf
+mkfs.fat -F32 /dev/sdf1
+sudo mkfs.fat -F32 /dev/sdf1
+dd if=Nobara-36-KDE-2022-11-08.iso of=/dev/sdf1
+listen dd
+list
+date
+date humanize
+date now
+dd --help
+cd iso
+ls
+lsblk
+cd iso
+lsblk
+lsblk /dev/sdf
+sudo gdisk /dev/sdf
+mkfs.fat -F32 /dev/sdf1
+sudo mkfs.fat -F32 /dev/sdf1
+dd --help
+bat
+sudo dd bs=1M status=progress if=Nobara-36-KDE-2022-11-08.iso of=/dev/sdf1
+lsblk
+procs
+ps
+lfs
+df
+df -kh
+caro install ripgrep
+cargo install ripgrep
+rg
+rg .
+tokei
+cargo install tokei
+tokei
+cargo install nu --features=extras
+nu --version
+cd iso
+ls
+scp Nobara-36-KDE-2022-11-08.iso sshep@192.168.1.214:~/iso
+ls

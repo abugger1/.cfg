@@ -167,7 +167,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][35][Applets][37][Configuration]
-PreloadWeight=87
+PreloadWeight=100
 
 [Containments][35][Applets][38]
 immutability=1
@@ -199,9 +199,6 @@ PreloadWeight=100
 [Containments][35][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][35][Applets][42][Configuration][General]
-currentTab=streams
 
 [Containments][35][Applets][43][Configuration]
 PreloadWeight=42
@@ -245,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][35][Applets][54][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][35][Applets][54][Configuration][ConfigDialog]
 DialogHeight=558
