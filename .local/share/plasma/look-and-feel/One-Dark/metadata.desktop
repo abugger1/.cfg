@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=One Dark!
+Name=One-Dark
+X-KDE-PluginInfo-Author=prayagjain
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=One-Dark
+X-KDE-PluginInfo-Version=v1
+X-KDE-PluginInfo-Website=https://github.com/prayag2/kde_onedark
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1571635,kns://aurorae.knsrc/api.kde-look.org/1571643,kns://icons.knsrc/api.kde-look.org/1281798,kns://wallpaper.knsrc/api.kde-look.org/1571655

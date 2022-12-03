@@ -1638,3 +1638,4 @@ cd iso
 ls
 scp Nobara-36-KDE-2022-11-08.iso sshep@192.168.1.214:~/iso
 ls
+zsh
