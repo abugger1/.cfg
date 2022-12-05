@@ -1639,3 +1639,59 @@ ls
 scp Nobara-36-KDE-2022-11-08.iso sshep@192.168.1.214:~/iso
 ls
 zsh
+sh
+sh]
+sh
+lsblk
+sudo gdisk /dev/sde
+mkfs.vfat -F32 /dev/sde1
+sudo mkfs.vfat -F32 /dev/sde1
+ls
+cd iso/
+ls
+sudo dd bs=1M status=progress if=Nobara-36-KDE-2022-11-08.iso of=/dev/sdf
+cd
+ls
+lsblk
+sudo dd bs=1M status=progress if=Nobara-36-KDE-2022-11-08.iso of=/dev/sde
+lsblk
+sudo dd bs=1M status=progress if=Nobara-36-KDE-2022-11-08.iso of=/dev/sde
+cd iso/
+ls
+lsblk
+lsblk | complete
+lsblk /dev/sde
+lsblk
+mkdir /run/media/usb
+sudo mkdir /run/media/usb
+lsblk
+mount /dev/sdf1 /run/media/usb/
+sudo mount /dev/sdf1 /run/media/usb/
+lsblk
+cd /run/media/usb/
+ls
+ls `My Pictures/`
+ls
+rm -rf *
+sudo rm -rf *
+ls
+cd
+ls
+sudo umout -R /run/media/usb/
+sudo umonut -R /run/media/usb/
+sudo umount -R /run/media/usb/
+lsblk
+htop
+sudo btop
+ls
+lsblk
+cd iso
+ls
+sudo dd bs=5M status=progress if=Nobara-36-KDE-2022-11-08.iso of=/dev/sdf
+cd
+ls .config/
+ls
+cd Arch-Install-sshep/
+ls
+lvim checkout-bare.cfg.sh
+config status
