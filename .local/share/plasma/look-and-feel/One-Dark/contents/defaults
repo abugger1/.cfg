@@ -1,0 +1,27 @@
+[kdeglobals][KDE]
+widgetStyle=breeze
+
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kdeglobals][General]
+ColorScheme=One-Dark-Blue
+
+[kdeglobals][Icons]
+Theme=Breeze Chameleon Dark
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+[Wallpaper]
+Image=One-Dark-Blue.png
+
+[plasmarc][Theme]
+name=breeze
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__One-Dark-Blue

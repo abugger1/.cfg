@@ -1,0 +1,172 @@
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+config nu
+lvim
+git clone https://github.com/abugger1/lvim ~/.config/lvim
+rm -rf .config/lvim/
+rm -rf .config/lvim.old/
+rm -rf .config/lvim/
+git clone https://github.com/abugger1/lvim ~/.config/lvim
+lvim
+ls
+rm -rf Arch-Install-sshep/
+ls
+ls themes/themes/
+./themes/themes/tokyo_night.nu
+cd themes/themes/
+ls
+lvim tokyo_night.nu
+config nu
+ls
+config nu
+config env
+ fc-cache -vf
+ls /usr/share/fonts/
+mkdir -s /usr/share/fonts/NerdFonts/FiraCode
+mkdir -p /usr/share/fonts/NerdFonts/FiraCode
+mkdir --help
+mkdir -s /usr/share/fonts/NerdFonts/FiraCode
+sudo mkdir -s /usr/share/fonts/NerdFonts/FiraCode
+sudo mkdir -p /usr/share/fonts/NerdFonts/FiraCode
+cd Downloads/
+ls
+sudo mv FiraCode /usr/share/fonts/NerdFonts/FiraCode/
+fc-cache -fv
+prompt.nu
+curl -sS https://starship.rs/install.sh | sh
+starship
+starship prompt
+starship init
+starship init nu
+starship 
+starship config
+config nu 
+zsh
+ls .cache/starship
+lvim .cache/starship
+config nu
+source ~/.cache/starship/init.nu
+brew doctor
+brew install starship
+starship config
+lvim .cache/starship/init.nu
+nu
+lvim .cache/starship/init.nu
+ls
+mkdir repos
+ls
+cd repos/
+ls
+ssh-keygen -t ed25519 -C "abugger1@github.com"
+which nu
+cd .ssh/
+ls
+cat id_ed25519
+eval "$(ssh-agent -s)"
+zsh
+ssh-add ~/.ssh/id_ed25519
+sudo ssh-add ~/.ssh/id_ed25519
+ssh
+cd
+ssh-add ~/.ssh/id_ed25519
+zsh
+cat id_ed25519
+cat .ssh/id_ed25519
+cat .ssh/id_ed25519.pub
+ls
+la
+ls -la
+rm -rf .cfg/
+git clone --bare git@github.com:abugger1/.cfg.git ~/.cfg
+ls .config
+cd .config
+cat KDE/UserFeedback.conf
+cat Kvantum/
+cat Kvantum/kvantum.kvconfig
+cat autostart/
+cd autostart/
+ls
+ls -a
+ls -al
+cd ..
+cat fontconfig/
+ls fontconfig/
+ls -a fontconfig/
+cat plasma-workspace/env/
+ls -a plasma-workspace/env/
+ls -a plasma-workspace/shutdown/
+ls nvim
+cd
+cd .cache
+ls .cache
+ls Homebrew/
+ls plasmashell/
+ls plasmashell/hsts/
+cat plasmashell/hsts/hstsstore | complete
+ls plasmashell/qmlcache/
+cat plasmashell/qmlcache/13158ed90bcaa0bea9ccf1f7b62be15d62e4b285.jsc
+ls ksplash/
+ls ksplash/qmlcache/
+cat ksplash/qmlcache/0a40ed2b643561c93043e051ae8528d91c113c62.qmlc | complete
+cat ksplash/qmlcache/a50ae120036c7f88d0a3488d51fd69c965c4054f.qmlc
+cat ksplash/qmlcache/a50ae120036c7f88d0a3488d51fd69c965c4054f.qmlc | complete
+cat plasma-svgelements
+ls plasmashell
+ls samba
+cat samba/gencache.tdb | complete
+cat systemsettings/
+ls systemsettings/
+ls systemsettings/attica/
+ls systemsettings/attica/data8/0/
+cat systemsettings/attica/data8/0/
+ls vim
+ls .local/
+ls .local/share/
+cd 
+cd .local/share
+ls
+cat krunnerstaterc
+kitty 
+ls konsole/
+ls applications/
+cat applications/lvim.desktop
+cat applications/defaults.list
+ls plasma/
+nu
+zsh
+nu
+ls zoxide/
+cat zoxide/
+cat zoxide/db.zo
+ls kscreen/
+ls kscreen/outputs/
+cat kscreen/outputs/4debe8083b1e5560fdcd70c2d058a4e1
+ls kscreen/b8af24e5ad0873742f7f4dbc48317a1a
+cat kscreen/b8af24e5ad0873742f7f4dbc48317a1a
+ls baloo/
+ls aurorae/
+ls aurorae/themes/
+ls aurorae/themes/Gingkol/
+ls
+ls -a
+cd
+ls
+cat .fonts.conf
+cat .profile
+cat .vim/
+cat .viminfo
+cat .zprofile
+cd .kde4/
+ls
+cd share
+ls
+ls apps/color-schemes/BreezeLight.colors
+ls config/kdeglobals
+cat config/kdeglobals
+cd
+ls .gnome/
+ls .gnome/apps/lvim.desktop
+cat .gnome/apps/lvim.desktop
+cat .bashrc | complete
+cat .Xauthority | complete
+ls
+ls -a

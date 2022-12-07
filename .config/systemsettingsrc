@@ -1,0 +1,37 @@
+[KDiskFree]
+Device=100
+Free=80
+Full%=50
+HeaderSectionIndices=0,1,2,3,4,5,6,7
+Icon=47
+MountPoint=120
+Size=80
+SortColumn=0
+SortOrder=0
+Type=80
+UsageBar=819
+
+[KFileDialog Settings]
+Recent Files[$e]=hotkeys.kksrc,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/Hoth Landscape Stormy Atmosphere of Merphlyn.jpg,file:$HOME/hotkeys.kksrc,file:///WdBlack/Users/sshep/Downloads/Photos/wp2808785-black-gold-wallpaper-hd.jpg
+Recent URLs[$e]=file:$HOME/,file:$HOME/Documents/,file:///WdBlack/Users/sshep/Downloads/Photos/,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/
+detailViewIconSize=256
+
+[MainWindow]
+DP-0=DP-0
+DP-0 Height 3440x1440 DP-0=1366
+DP-0 Width 3440x1440 DP-0=1718
+DP-0 XPosition 3440x1440 DP-0=1
+DP-0 YPosition 3440x1440 DP-0=73
+DP-3=DP-3
+DP-3 XPosition 3440x1440 DP-3=1210
+DP-3 YPosition 3440x1440 DP-3=397
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABrYAAAVWAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=firefox,lutris,steam,discor,kitty
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Timeout=45
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
+PreviewImage=/WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
