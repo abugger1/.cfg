@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-zip
+Name=FiraCode.zip
+Type=Link
+URL[$e]=file:$HOME/Downloads/FiraCode.zip
+X-KDE-LastOpenedWith=org.kde.ark
