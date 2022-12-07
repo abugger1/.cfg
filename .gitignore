@@ -75,3 +75,4 @@ config/kactivitymanagerdrc
 .local/bin/*
 Downloads/FiraCodeWindows/*
 Downloads/KvGlass/*
+.local/state/*

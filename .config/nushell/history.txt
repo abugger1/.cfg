@@ -171,3 +171,6 @@ cat .Xauthority | complete
 ls
 ls -a
 zsh
+ls
+ls -a
+lvim .gitignore
