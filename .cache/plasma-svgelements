@@ -223,7 +223,7 @@ LastModified=1670429386
 NaturalSize_1=22,22
 
 [/home/sshep/.local/share/icons/BLACK-Gold-Numix-FLAT/22/panel/redshift-status-on.svg]
-Invalidelements=3588089827,646872806,1315971616,2540820711
+Invalidelements=3153519879,2540820711,1315971616,646872806,3588089827
 LastModified=1670429386
 NaturalSize_1=22,22
 
@@ -785,24 +785,24 @@ audio-volume-muted=16x16,16x16,16x16,16x16,16x16,16x16,16x16,16x16,16x16,16x16,1
 3947650754=-42,-7.009999999999991,22,22
 4158453645=-86.00000000000003,-42,32,32
 4227950070=123.5,-3,22,22
-AcAdapter=22x22,22x22,
-Battery=22x22,22x22,
-Fill0=22x22,22x22,
-Fill10=22x22,22x22,
-Fill100=22x22,22x22,
-Fill20=22x22,22x22,
-Fill30=22x22,22x22,
-Fill40=22x22,22x22,
-Fill50=22x22,22x22,
-Fill60=22x22,22x22,
-Fill70=22x22,22x22,
-Fill80=22x22,22x22,
-Fill90=22x22,22x22,
+AcAdapter=22x22,22x22,22x22,
+Battery=22x22,
+Fill0=22x22,
+Fill10=22x22,
+Fill100=22x22,
+Fill20=22x22,
+Fill30=22x22,
+Fill40=22x22,
+Fill50=22x22,
+Fill60=22x22,
+Fill70=22x22,
+Fill80=22x22,
+Fill90=22x22,
 Invalidelements=3460940028,1840070764,4064131546
 LastModified=1670429387
 NaturalSize_1=22,22
-Unavailable=22x22,22x22,
-battery-ups=22x22,22x22,
+Unavailable=22x22,
+battery-ups=22x22,
 
 [/home/sshep/.local/share/plasma/desktoptheme/Stone/icons/computer.svg]
 1351269547=36,0,22,22
@@ -899,14 +899,14 @@ NaturalSize_1=22,22
 Invalidelements=118820799,2001812872
 LastModified=1670429387
 NaturalSize_1=70,256
-input-caps-on=22x22,22x22,
-input-keyboard=22x22,22x22,
-input-keyboard-battery=22x22,22x22,
-input-keyboard-brightness=22x22,22x22,
-input-keyboard-virtual-off=22x22,22x22,
-input-keyboard-virtual-on=22x22,22x22,
-input-mouse-battery=22x22,16x16,22x22,16x16,
-input-num-on=22x22,22x22,
+input-caps-on=22x22,
+input-keyboard=22x22,22x22,22x22,
+input-keyboard-battery=22x22,
+input-keyboard-brightness=22x22,
+input-keyboard-virtual-off=22x22,
+input-keyboard-virtual-on=22x22,
+input-mouse-battery=16x16,22x22,
+input-num-on=22x22,
 
 [/home/sshep/.local/share/plasma/desktoptheme/Stone/icons/klipper.svg]
 259187119=0,0,22,22
@@ -930,6 +930,7 @@ list-remove=16x16,16x16,16x16,16x16,16x16,
 
 [/home/sshep/.local/share/plasma/desktoptheme/Stone/icons/media.svg]
 2249694512=13.493573719999999,10.583375,5.820760000000002,5.82076
+252052506=4.511798877911368,15.8750625,3.67626947368421,8.73114
 2584480462=7.143681556693,10.583375,5.82076,5.82076
 2666476073=11.526837763157895,0.9095087886860526,1.6849568421052632,4.0017724999999995
 27151454=3.0078659186075787,10.583375,2.4508463157894735,5.82076
@@ -1035,18 +1036,18 @@ NaturalSize_1=22,22
 Invalidelements=1315472390,1384475019,3175538818,4244348093,3296204971
 LastModified=1670429387
 NaturalSize_1=32,32
-system-lock-screen=22x22,22x22,22x22,22x22,
-system-log-out=22x22,22x22,22x22,22x22,
-system-reboot=22x22,22x22,22x22,22x22,
-system-save-session=22x22,22x22,22x22,22x22,
-system-search=22x22,22x22,22x22,22x22,
-system-shutdown=22x22,22x22,22x22,22x22,
-system-suspend=22x22,22x22,22x22,22x22,
-system-suspend-hibernate=22x22,22x22,22x22,22x22,22x22,
-system-switch-user=22x22,22x22,22x22,22x22,
-system-user-list=22x22,22x22,22x22,22x22,
-system-user-prompt=22x22,22x22,22x22,22x22,
-system-users=22x22,22x22,22x22,22x22,
+system-lock-screen=22x22,
+system-log-out=22x22,
+system-reboot=22x22,
+system-save-session=22x22,
+system-search=22x22,
+system-shutdown=22x22,
+system-suspend=22x22,
+system-suspend-hibernate=22x22,
+system-switch-user=22x22,22x22,22x22,22x22,22x22,
+system-user-list=22x22,
+system-user-prompt=22x22,
+system-users=22x22,
 
 [/home/sshep/.local/share/plasma/desktoptheme/Stone/icons/update.svg]
 4271751870=-0.0009197793,-0.0035560548,22,22
@@ -1058,6 +1059,7 @@ NaturalSize_1=22,22
 [/home/sshep/.local/share/plasma/desktoptheme/Stone/icons/user.svg]
 213993499=1645.0249199999998,0.005180000000052587,154,154
 2568489169=683.64672,0.002152727272749127,64,64
+653770608=1495.4771999999998,0.004709090909138715,140,140
 688941722=235.00356,0.0007400000000075124,22,22
 Invalidelements=3020005339,4087826919
 LastModified=1670429387

@@ -170,3 +170,4 @@ cat .bashrc | complete
 cat .Xauthority | complete
 ls
 ls -a
+zsh
