@@ -1,4 +1,10 @@
 
+.cache/flameshot/*
+.cache/kcmshell5/*
+.cache/nvim/*
+.cache/starship/session*
+local/share/RecentDocuments/*
+.local/share/ranger/*
 .config/zsh/plugins/*
 .Xauthority
 .bash_history
