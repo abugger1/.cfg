@@ -38,6 +38,9 @@ slideEnabled=false
 slidebackEnabled=true
 wobblywindowsEnabled=true
 
+[TabBox]
+LayoutName=Stone
+
 [TabBoxAlternative]
 LayoutName=One-Dark
 
