@@ -346,3 +346,35 @@ lvim .gitignore
 zsh
 neofetch
 zi
+zsh
+cfg
+lvim .config/zsh/zsh-aliases
+mirror
+df -h
+df
+psmem
+ps
+gpg2 
+gpg2 --keyserver-options auto-key-retrieve --verify
+cfg
+cfg status
+echo $HOME
+$env.HOME
+nu
+cfg status
+cd $env.HOME/,cfg
+cd $env.HOME/.cfg
+cd HOME/.cfg
+cd ~/.cfg
+ls
+cd
+cfg status
+cd
+nu
+bu
+cfg
+cfg --version
+cfg
+pwd
+nu
+cfg status

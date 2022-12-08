@@ -622,3 +622,23 @@ let-env PATH = ($env.PATH | append '/home/sshep/anaconda3/bin:/home/sshep/.minic
 let-env EDITOR = "lvim"
 let-env LS_COLORS = (vivid generate one-dark | str trim)
 source ~/.zoxide.nu
+alias ll = ls -l
+
+alias mirror = sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist
+alias mirrord = sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist
+alias mirrors = sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist
+alias mirrora = sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist
+alias mirrorr = sudo reflector --latest 50 --number 20 --verbose --sort rate --save /etc/pacman.d/mirrorlist
+alias cp = cp -i
+alias mv = mv -i
+alias rm = rm -i
+alias df = df -h     # human-readable sizes
+alias free = free -m # show sizes in MB
+# gpg encryption
+# verify signature for isos
+alias gpg-check = gpg2 --keyserver-options auto-key-retrieve --verify
+# receive the key of a developer
+alias gpg-retrieve = gpg2 --keyserver-options auto-key-retrieve --receive-keys
+# For when keys break
+alias archlinx-fix-keys = sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys
+alias cfg = /usr/bin/git --git-dir=/home/sshep/.cfg --work-tree=/home/sshep
