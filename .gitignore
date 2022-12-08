@@ -1,4 +1,6 @@
 
+.cache/appstream/*
+.local/share/gwenview/*
 .cache/systemsettings/*
 .config/menus/*
 .cache/winetricks/*
