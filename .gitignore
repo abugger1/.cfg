@@ -2,6 +2,10 @@
 .steam/*
 .var/*
 .steampath
+.steampid
+.local/share/webkitgtk/*
+.local/share/mime/*
+.local/share/lutris/*
 .steamid
 Downloads/*
 .wine/*
