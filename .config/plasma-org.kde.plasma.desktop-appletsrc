@@ -178,7 +178,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][35][Applets][38][Configuration]
-PreloadWeight=65
+PreloadWeight=85
 
 [Containments][35][Applets][39][Configuration]
 PreloadWeight=42
@@ -229,14 +229,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][35][Applets][48][Configuration]
-PreloadWeight=20
+PreloadWeight=25
 
 [Containments][35][Applets][49]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][35][Applets][49][Configuration]
-PreloadWeight=40
+PreloadWeight=45
 
 [Containments][35][Applets][50][Configuration]
 PreloadWeight=42
@@ -293,6 +293,8 @@ DialogWidth=880
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=1287
 ToolBoxButtonY=40
+locked=true
+previews=false
 
 [Containments][60][Wallpaper][org.kde.image][General]
 Image=/WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
