@@ -1,4 +1,13 @@
 
+.cache/systemsettings/*
+.config/menus/*
+.cache/winetricks/*
+.config/cef_user_data/*
+.config/lutris/*
+.local/share/Trash/*
+.local/share/desktop-directories/*
+.local/share/flatpak/*
+.local/share/gvfs-*
 .cache/flatpak/*
 .cache/gstreamer-*
 .cache/lutris/*
