@@ -1,4 +1,13 @@
 
+.cache/flatpak/*
+.cache/gstreamer-*
+.cache/lutris/*
+.config/mimeapps.list
+.config/trashrc
+.config/tutanota-desktop/*
+.local/share/applications/*
+.local/share/vulkan/*
+.local/share/icons/hicolor/*
 .steam/*
 .var/*
 .steampath
