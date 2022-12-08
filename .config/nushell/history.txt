@@ -342,3 +342,4 @@ neofetch
 lvim .config/neofetch/config.conf
 config env
 nu
+lvim .gitignore
