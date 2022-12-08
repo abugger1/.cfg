@@ -1,4 +1,5 @@
 
+.gnupg/*
 .cache/flameshot/*
 .cache/kcmshell5/*
 .cache/nvim/*
