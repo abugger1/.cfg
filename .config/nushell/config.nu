@@ -642,3 +642,4 @@ alias gpg-retrieve = gpg2 --keyserver-options auto-key-retrieve --receive-keys
 # For when keys break
 alias archlinx-fix-keys = sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys
 alias cfg = /usr/bin/git --git-dir=/home/sshep/.cfg --work-tree=/home/sshep
+alias la = ls -la
