@@ -18,9 +18,9 @@ detailViewIconSize=256
 
 [MainWindow]
 DP-0=DP-0
-DP-0 Height 3440x1440 DP-0=1366
+DP-0 Height 3440x1440 DP-0=666
 DP-0 Width 3440x1440 DP-0=1718
-DP-0 XPosition 3440x1440 DP-0=1
+DP-0 XPosition 3440x1440 DP-0=1721
 DP-0 YPosition 3440x1440 DP-0=73
 DP-3=DP-3
 DP-3 XPosition 3440x1440 DP-3=1210

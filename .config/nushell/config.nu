@@ -349,7 +349,7 @@ let-env config = {
   float_precision: 2
   # buffer_editor: "emacs" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
   use_ansi_coloring: true
-  edit_mode: emacs # emacs, vi
+  edit_mode: vi # emacs, vi
   shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
   show_banner: false # true or false to enable or disable the banner
   render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
@@ -383,8 +383,8 @@ let-env config = {
             col_padding: 2
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
       }
@@ -397,8 +397,8 @@ let-env config = {
             page_size: 10
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
       }
@@ -415,8 +415,8 @@ let-env config = {
             description_rows: 10
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
       }
@@ -434,8 +434,8 @@ let-env config = {
             col_padding: 2
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
         source: { |buffer, position|
@@ -453,8 +453,8 @@ let-env config = {
             page_size: 10
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
         source: { |buffer, position|
@@ -477,8 +477,8 @@ let-env config = {
             description_rows: 10
         }
         style: {
-            text: green
-            selected_text: green_reverse
+            text: purple
+            selected_text: red_reverse
             description_text: yellow
         }
         source: { |buffer, position|
@@ -490,10 +490,35 @@ let-env config = {
   ]
   keybindings: [
     {
+    name: open_ranger
+    modifier: control
+    keycode: char_e
+    mode: vi_insert
+    event: [
+        { edit: InsertString,
+          value: "ranger"
+        }
+        { send: Enter }
+      ]
+    }
+    {
+    name: zoxide
+    modifier: control
+    keycode: char_f
+    mode: vi_insert
+    event: [
+        { edit: InsertString,
+          value: "zi"
+        }
+        { send: Enter }
+
+      ]
+    }
+    {
       name: completion_menu
       modifier: none
       keycode: tab
-      mode: emacs # Options: emacs vi_normal vi_insert
+      mode: vi_normal # Options: emacs vi_normal vi_insert
       event: {
         until: [
           { send: menu name: completion_menu }
@@ -593,3 +618,7 @@ let-env config = {
 }
 
 source ~/.cache/starship/init.nu
+let-env PATH = ($env.PATH | append '/home/sshep/anaconda3/bin:/home/sshep/.miniconda/bin:/home/sshep/.local/share/neovim/bin:/home/sshep/.local/share/go/bin:/home/sshep/.cargo/bin:/home/sshep/.local/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/sshep/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl')
+let-env EDITOR = "lvim"
+let-env LS_COLORS = (vivid generate one-dark | str trim)
+source ~/.zoxide.nu

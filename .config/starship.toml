@@ -1,7 +1,5 @@
 # ~/.config/starship.toml
 
-[fill]
-symbol = ' '
 
 # Inserts a blank line between shell prompts
 add_newline = true
@@ -20,7 +18,7 @@ $git_branch\
 $git_state\
 $git_status\
 $git_metrics\
-fill\
+$fill$right_format\
 $rust\
 $ruby\
 $nodejs\
@@ -59,14 +57,14 @@ format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
 symbol = " "
-format = "on [$symbol$branch]($style) "
+format = "[$symbol$branch]($style) "
 truncation_length = 4
 truncation_symbol = "…/"
-style = "bold green"
+style = "bold yellow"
 
 [git_status]
 format = '[\($all_status$ahead_behind\)]($style) '
-style = "bold green"
+style = "bold red"
 conflicted = "🏳"
 up_to_date = " "
 untracked = " "
@@ -75,7 +73,7 @@ diverged = "⇕⇡${ahead_count}⇣${behind_count}"
 behind = "⇣${count}"
 stashed = " "
 modified = " "
-staged = '[++\($count\)](green)'
+staged = '[++\($count\)](red)'
 renamed = "襁 "
 deleted = " "
 
@@ -97,17 +95,17 @@ python_binary = "python3"
 
 [nodejs]
 format = "[ $version](bold green) "
-disabled = true
 
 [ruby]
 format = "[ $version]($style) "
 
 [rust]
 format = "[ $version]($style)"
+style = "bold blue"
 
 [lua]
 format = "[ $version]($style)"
-
+style = "bold blue"
 [kubernetes]
 format = 'on [ $context\($namespace\)](bold purple) '
 disabled = false

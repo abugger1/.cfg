@@ -174,3 +174,171 @@ zsh
 ls
 ls -a
 lvim .gitignore
+zsh
+cd repos/
+ls
+git clone git@github.com:sharkdp/vivid.git
+zsh
+cd
+ls
+sudo pacman -S vivid
+zsh
+ls
+$env-PATH
+$env.path
+$env.PATH
+zsh
+nvim
+lvim
+let-env LS_COLORS = (vivid generate one-dark | str trim)
+ls
+ls -a
+ls
+zsh
+vim .config/zsh/zsh-exports
+cd /etc/libvirt/
+ls
+cd
+ls /etc/libvirt/
+let-env LS_COLORS = (vivid generate one-dark | str trim)
+let-env LS_COLORS = (vivid generate one-dark)
+ls
+ls -a
+cd
+ls
+ls repos
+cd repos/
+ls
+cd
+neofetch
+brew doctor
+lvim
+config nu
+let-env EDITOR = "lvim"
+$env.EDITOR
+config nu
+env | each { |it| echo $"let-env ($it.name) = '($it.raw)'" } | str join (char nl)
+lvim
+$nu.loginshell-path
+$nu.config-path
+ls
+rm path.txt
+ls
+lvim
+zsh
+lvim
+config ny
+config nu
+let-env EDITOR = "lvim"
+zoxide
+zoxide init nu
+zoxide init nushell
+config env
+zi
+z
+zi
+ls
+cd repos
+ls
+git clone git@github.com:abugger1/Arch-Install-sshep.git
+mkdir rust
+cd rust
+git clone git@github.com:abugger1/rust-crash-course.git
+ls
+cd
+cd repos/
+ls
+cd Arch-Install-sshep/
+ls
+lvim Arch-Base-Install.sh
+ls
+open pacman.conf
+open makepkg.conf
+ls
+cd
+cd Arch-Install-sshep/
+cd repos/Arch-Install-sshep/
+git status
+git add -u
+git commit -m "updated packages"
+git status
+git push
+git status
+cd..
+cd ,,
+cd ..
+ls
+cd
+config nu
+ls
+cd repos
+ls
+cd Arch-Install-sshep/
+cd ..
+ls
+cd rust
+ls
+cd rust-crash-course/
+config nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+cd repos/rust/rust-crash-course/
+ls
+cd repos/rust/rust-crash-course/
+ls
+cd src/
+ls
+starship config
+cd ..
+cd repos/rust/rust-crash-course/
+starship prompt --right
+nu
+ls
+tree
+starship config
+lvim .cache/starship/init.nu
+nu
+nu
+starship config
+config env
+z
+zi
+ansi 
+ls
+nu
+nui
+nu
+config nu
+ls
+nui
+zi
+nu
+import pandas as pd
+df = pd.read_csv("Data7602DescendingYearOrder.csv")
+import pandas as pd
+ls-df
+$df
+df
+df | sum
+let $config = {<\n>    ...<\n>    edit_mode: vi<\n>    ...<\n>  }
+keybindings list 
+nu
+ranger
+nu8
+nu
+zi
+config nu
+ls
+ranger
+cd
+neofetch
+lvim .config/neofetch/config.conf
+config env
+nu
