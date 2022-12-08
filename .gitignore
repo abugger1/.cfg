@@ -1,4 +1,11 @@
 
+.steam/*
+.var/*
+.steampath
+.steamid
+Downloads/*
+.wine/*
+Games/*
 .local/share/Steam/*
 .config/nushell/history.txt
 .gnupg/*
