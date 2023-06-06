@@ -7,9 +7,11 @@ ani-cli/*
 .cachejj/plasma-systemmonitor/*
 .cache/ani-cli/*
 .cache/kcrash-metadata/*
+.cache/systemsettings/qmlcache/*
 .local/share/gwenview/*
 .local/share/pikaur/*
 .local/share/lvim/*
+.nv/ComputeCache/*
 .cache/systemsettings/*
 .config/menus/*
 .cache/winetricks/*
