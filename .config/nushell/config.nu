@@ -343,7 +343,7 @@ let-env config = {
     metric: true # true => KB, MB, GB (ISO standard), false => KiB, MiB, GiB (Windows standard)
     format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
   }
-  color_config: $tokyonight_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
+  color_config: $tokyonight_theme # if you want a light theme, replace `$dark_theme` to `$light_theme`
   use_grid_icons: true
   footer_mode: "25" # always, never, number_of_rows, auto
   float_precision: 2
@@ -639,7 +639,7 @@ alias free = free -m # show sizes in MB
 alias gpg-check = gpg2 --keyserver-options auto-key-retrieve --verify
 # receive the key of a developer
 alias gpg-retrieve = gpg2 --keyserver-options auto-key-retrieve --receive-keys
-# For when keys break
-alias archlinx-fix-keys = sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys
+# # For when keys break
+# alias archlinx-fix-keys = sudo pacman-key --init; sudo pacman-key --populate archlinux; sudo pacman-key --refresh-keys
 alias cfg = /usr/bin/git --git-dir=/home/sshep/.cfg --work-tree=/home/sshep
 alias la = ls -la

@@ -1,6 +1,10 @@
+[FileDialogSize]
+2 screens: Height=746
+2 screens: Width=1728
+
 [KFileDialog Settings]
-Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
-Recent URLs[$e]=file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/
+Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:$HOME/Downloads/Pictures/cropped-1920-1080-1054776.jpg,file:///WdBlack/Users/sshep/Documents/Art Resources/Foot_Prints_in_Sand.jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Asian model (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Sad girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
+Recent URLs[$e]=file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/,file:///WdBlack/Users/sshep/Pictures/Ultrawide/,file:///WdBlack/Users/sshep/Pictures/,file:///WdBlack/Users/sshep/Documents/Art Resources/,file:$HOME/Downloads/Pictures/
 detailViewIconSize=128
 
 [KPropertiesDialog]
@@ -10,30 +14,23 @@ HDMI-1 Width 3840x2160=431
 [PlasmaViews][Panel 2][Defaults]
 thickness=60
 
-[PlasmaViews][Panel 2][Horizontal3840]
-thickness=60
-
 [PlasmaViews][Panel 27][Defaults]
 maxLength=3428
 minLength=3422
 offset=0
-thickness=40
-
-[PlasmaViews][Panel 27][Horizontal1920]
 thickness=32
 
 [PlasmaViews][Panel 27][Horizontal3440]
 maxLength=3428
 minLength=3422
-thickness=40
 
 [PlasmaViews][Panel 27][Horizontal3840]
 maxLength=1920
 minLength=1920
-thickness=32
 
 [ScreenConnectors]
-0=HDMI-1
+0=DP-0
+1=HDMI-0
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js

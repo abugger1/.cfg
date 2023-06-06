@@ -1,0 +1,34 @@
+[2023-05-29 20:40:08.668] [error] {
+  response: {
+    error: 'invalid_grant',
+    error_description: 'invalid_username_or_password',
+    ErrorModel: {
+      Message: 'Username or password is incorrect. Try again.',
+      Object: 'error'
+    }
+  },
+  message: 'Username or password is incorrect. Try again.',
+  captchaRequired: false,
+  statusCode: 400
+}
+[2023-05-29 20:40:08.673] [error] Received API exception: [object Object]
+[2023-05-29 20:44:43.003] [info]  Finished search indexing
+[2023-05-29 20:44:43.148] [info]  Finished search indexing
+[2023-05-29 20:47:12.027] [info]  Finished search indexing
+[2023-05-29 20:51:35.360] [info]  Finished search indexing
+[2023-05-29 20:51:42.611] [info]  Finished search indexing
+[2023-05-29 20:52:08.255] [info]  Finished search indexing
+[2023-05-29 20:52:32.862] [info]  Finished search indexing
+[2023-05-29 20:52:48.495] [info]  Finished search indexing
+[2023-05-29 20:53:24.808] [info]  Finished search indexing
+[2023-05-29 20:55:15.232] [info]  Finished search indexing
+[2023-05-29 21:01:38.814] [info]  Finished search indexing
+[2023-05-29 21:02:33.278] [info]  Finished search indexing
+[2023-05-29 21:04:42.899] [info]  Finished search indexing
+[2023-05-29 21:07:56.209] [info]  Finished search indexing
+[2023-05-29 21:10:57.950] [info]  Finished search indexing
+[2023-05-29 21:11:22.374] [info]  Finished search indexing
+[2023-05-29 21:12:50.293] [info]  Finished search indexing
+[2023-05-30 11:07:24.116] [info]  Finished search indexing
+[2023-05-30 11:08:49.339] [info]  Finished search indexing
+[2023-05-30 11:21:42.196] [info]  Finished search indexing

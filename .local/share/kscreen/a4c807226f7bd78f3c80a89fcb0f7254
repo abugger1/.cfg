@@ -1,0 +1,52 @@
+[
+    {
+        "enabled": true,
+        "id": "4debe8083b1e5560fdcd70c2d058a4e1",
+        "metadata": {
+            "fullname": "xrandr-LG Electronics-LG ULTRAGEAR-206NTYT42034",
+            "name": "DP-0"
+        },
+        "mode": {
+            "refresh": 143.92276000976562,
+            "size": {
+                "height": 1440,
+                "width": 3440
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "priority": 1,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 2
+    },
+    {
+        "enabled": true,
+        "id": "fd93ea05fcd5ebd1b6998bcf5dfd2f3d",
+        "metadata": {
+            "fullname": "xrandr-Ancor Communications Inc-VX228-F7LMRS032583",
+            "name": "HDMI-0"
+        },
+        "mode": {
+            "refresh": 50,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 3440,
+            "y": 360
+        },
+        "priority": 2,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 2
+    }
+]

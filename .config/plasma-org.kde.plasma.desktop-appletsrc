@@ -118,7 +118,9 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][27][Applets][55][Configuration]
-PreloadWeight=5
+PreloadWeight=15
+popupHeight=500
+popupWidth=440
 
 [Containments][27][Applets][55][Configuration][ConfigDialog]
 DialogHeight=558
@@ -178,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][35][Applets][38][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][35][Applets][39][Configuration]
 PreloadWeight=42
@@ -205,6 +207,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][35][Applets][42][Configuration][General]
+migrated=true
 raiseMaximumVolume=true
 
 [Containments][35][Applets][43][Configuration]
@@ -236,7 +239,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][35][Applets][49][Configuration]
-PreloadWeight=45
+PreloadWeight=55
 
 [Containments][35][Applets][50][Configuration]
 PreloadWeight=42
@@ -262,6 +265,10 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][35][Applets][56][Configuration]
 PreloadWeight=0
 
+[Containments][35][Applets][58]
+immutability=1
+plugin=org.kde.kscreen
+
 [Containments][35][ConfigDialog]
 DialogHeight=961
 DialogWidth=1258
@@ -270,9 +277,9 @@ DialogWidth=1258
 PreloadWeight=0
 
 [Containments][35][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 hiddenItems=org.kde.plasma.clipboard,KOrganizer Reminder Daemon,Discover Notifier_org.kde.DiscoverNotifier,KMix
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.manage-inputmethod
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 
 [Containments][60]
 ItemGeometries-3440x1440=
@@ -298,6 +305,26 @@ previews=false
 
 [Containments][60][Wallpaper][org.kde.image][General]
 Image=/WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][61]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=77d532b8-59b6-422e-a20b-553e28ba2da4
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][61][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][61][Wallpaper][org.kde.image][General]
+FillMode=0
+Image=/home/sshep/Downloads/Pictures/cropped-1920-1080-1054776.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments27Appletsts][57][Configuration][General]

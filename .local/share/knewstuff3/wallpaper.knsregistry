@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="307">
+  <name>Barefooted Woman Walking on Shore</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>djboy</author>
+  <homepage>https://store.kde.org/p/1421016</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>7</downloads>
+  <installedfile>/home/sshep/.local/share/wallpapers/pexels-artem-beliaikin-1337582.jpg</installedfile>
+  <id>1421016</id>
+  <releasedate>2020-09-10</releasedate>
+  <summary>Barefooted Woman Walking on Shore&lt;br />
+1920 x 1280</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/69/32/1421016/8c66589541e39d36550eb0bffcd8035685a58cb8718777c8ac876dddb35247c0270a.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/69/32/1421016/8c66589541e39d36550eb0bffcd8035685a58cb8718777c8ac876dddb35247c0270a.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTk3OTEwNTIiLCJvIjoiMSIsInMiOiIzZmY2ZWU2YTQ1Mjk1ZjAzNjUzZWJmODA4YjAwNzJmZjI1ZmNkYjNlNGMyYTBmZTAyMzY3MzRiNjAyODcxNjk0YTNhOWM3NGU3MmZmNzExN2E5YzU1NDc0YmM3ZGUwMmQxYTdkZTljNjA1NDAwMGM5ZTI3OTllNGRkYjNhZDU0MiIsInQiOjE2ODUzMDUxMDcsInN0ZnAiOm51bGwsInN0aXAiOiI1MC4yNi4xNjEuNTIifQ.RnZYunER0M2eK8WvGprKpnbpvLFy58u52aTGZFZfmVc/pexels-artem-beliaikin-1337582.jpg</payload>
+  <tags>artwork,cc0,wallpaper,woman,ocean,sea,shore,nature,beach</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="296">
+  <name>Anime Girl Barefoot Blonde Sky Stars Sunset HD</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>michelgrande199</author>
+  <homepage>https://store.kde.org/p/1578041</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>105</downloads>
+  <installedfile>/home/sshep/.local/share/wallpapers/anime-girl-barefoot-blonde-sky-stars-sunset-4k-cg-1920x1080.jpg</installedfile>
+  <id>1578041</id>
+  <releasedate>2021-08-20</releasedate>
+  <summary>resolution 1920 x 1080</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/61/45/57/1578041/c2ab8b6ed38e036eebaf32bffcbb0acd046f799be56c2734c4913356a576f75fd4e7.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/61/45/57/1578041/c2ab8b6ed38e036eebaf32bffcbb0acd046f799be56c2734c4913356a576f75fd4e7.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mjk0NzQ5MzAiLCJvIjoiMSIsInMiOiJmODM4ZjUzMmU1ZWM0YzA5YmE4YTk1YWNlYWIxOWYwMjk3ZTkzYjU4ZWUxNjdmNWI4MmNiNTQzNGNiZWIxNDgyOGExN2JiZmU5MGM4ZTEyZDI4YTU4Y2MwNDAyMmViZGFiNzljNzE5YmY4NDg4YzkwYzQ5N2M4Yjg0NGYxZGQwNSIsInQiOjE2ODUzMDUxMDYsInN0ZnAiOm51bGwsInN0aXAiOiI1MC4yNi4xNjEuNTIifQ.-5Hc0q-hmQjQvcnDPhjACM7w54S2CJIKzmrQW5bPZzI/anime-girl-barefoot-blonde-sky-stars-sunset-4k-cg-1920x1080.jpg</payload>
+  <tags>wallpaper,abstract,artwork,anime,girl,sky,cc0,blonde,barefoot</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

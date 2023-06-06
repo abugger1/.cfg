@@ -1,0 +1,619 @@
+[2023-05-29 20:44:42.727] [info]  TypeError: Cannot read properties of undefined (reading 'deleteBiometricKey')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44517:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.deleteBiometricKey (/usr/lib/bitwarden/app.asar/main.js:44515:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44699:45)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-29 20:44:42.747] [info]  Error: No password found
+[2023-05-29 20:44:42.781] [info]  Error: No password found
+[2023-05-29 20:44:42.782] [info]  Error: No password found
+[2023-05-29 20:44:42.789] [info]  Error: No password found
+[2023-05-29 20:44:42.789] [info]  Error: No password found
+[2023-05-29 20:44:42.820] [info]  Error: No password found
+[2023-05-29 20:44:42.825] [info]  Error: No password found
+[2023-05-29 20:44:42.830] [info]  Error: No password found
+[2023-05-29 20:44:42.834] [info]  Error: No password found
+[2023-05-29 20:44:43.001] [info]  Error: No password found
+[2023-05-29 20:44:43.018] [info]  Error: No password found
+[2023-05-29 20:44:43.035] [info]  Error: No password found
+[2023-05-29 20:44:43.053] [info]  Error: No password found
+[2023-05-29 20:44:43.074] [info]  Error: No password found
+[2023-05-29 20:44:43.096] [info]  Error: No password found
+[2023-05-29 20:44:43.112] [info]  Error: No password found
+[2023-05-29 20:44:43.117] [info]  Error: No password found
+[2023-05-29 20:44:43.130] [info]  Error: No password found
+[2023-05-29 20:44:43.171] [info]  Error: No password found
+[2023-05-29 20:44:43.177] [info]  Error: No password found
+[2023-05-29 20:44:43.182] [info]  Error: No password found
+[2023-05-29 20:44:43.187] [info]  Error: No password found
+[2023-05-29 20:44:43.192] [info]  Error: No password found
+[2023-05-29 20:44:49.796] [info]  Error: No password found
+[2023-05-29 20:44:49.818] [info]  Error: No password found
+[2023-05-29 20:44:59.796] [info]  Error: No password found
+[2023-05-29 20:45:09.796] [info]  Error: No password found
+[2023-05-29 20:45:19.796] [info]  Error: No password found
+[2023-05-29 20:45:29.796] [info]  Error: No password found
+[2023-05-29 20:45:39.795] [info]  Error: No password found
+[2023-05-29 20:45:49.795] [info]  Error: No password found
+[2023-05-29 20:45:59.797] [info]  Error: No password found
+[2023-05-29 20:46:09.795] [info]  Error: No password found
+[2023-05-29 20:46:19.796] [info]  Error: No password found
+[2023-05-29 20:46:29.796] [info]  Error: No password found
+[2023-05-29 20:46:39.797] [info]  Error: No password found
+[2023-05-29 20:46:49.796] [info]  Error: No password found
+[2023-05-29 20:46:59.796] [info]  Error: No password found
+[2023-05-29 20:47:09.797] [info]  Error: No password found
+[2023-05-29 20:47:11.999] [info]  Error: No password found
+[2023-05-29 20:47:12.050] [info]  Error: No password found
+[2023-05-29 20:47:12.061] [info]  Error: No password found
+[2023-05-29 20:47:19.796] [info]  Error: No password found
+[2023-05-29 20:47:29.795] [info]  Error: No password found
+[2023-05-29 20:47:39.796] [info]  Error: No password found
+[2023-05-29 20:47:49.797] [info]  Error: No password found
+[2023-05-29 20:47:59.797] [info]  Error: No password found
+[2023-05-29 20:48:09.796] [info]  Error: No password found
+[2023-05-29 20:48:19.796] [info]  Error: No password found
+[2023-05-29 20:48:29.796] [info]  Error: No password found
+[2023-05-29 20:48:39.796] [info]  Error: No password found
+[2023-05-29 20:48:49.796] [info]  Error: No password found
+[2023-05-29 20:48:59.796] [info]  Error: No password found
+[2023-05-29 20:49:09.796] [info]  Error: No password found
+[2023-05-29 20:49:19.795] [info]  Error: No password found
+[2023-05-29 20:49:29.796] [info]  Error: No password found
+[2023-05-29 20:49:39.796] [info]  Error: No password found
+[2023-05-29 20:49:49.796] [info]  Error: No password found
+[2023-05-29 20:49:59.796] [info]  Error: No password found
+[2023-05-29 20:50:09.797] [info]  Error: No password found
+[2023-05-29 20:50:19.796] [info]  Error: No password found
+[2023-05-29 20:50:29.796] [info]  Error: No password found
+[2023-05-29 20:50:39.796] [info]  Error: No password found
+[2023-05-29 20:50:49.796] [info]  Error: No password found
+[2023-05-29 20:50:59.797] [info]  Error: No password found
+[2023-05-29 20:51:09.796] [info]  Error: No password found
+[2023-05-29 20:51:19.795] [info]  Error: No password found
+[2023-05-29 20:51:23.227] [info]  Error: No password found
+[2023-05-29 20:51:29.796] [info]  Error: No password found
+[2023-05-29 20:51:35.203] [info]  Error: No password found
+[2023-05-29 20:51:35.260] [info]  Error: No password found
+[2023-05-29 20:51:35.283] [info]  Error: No password found
+[2023-05-29 20:51:35.307] [info]  Error: No password found
+[2023-05-29 20:51:35.326] [info]  Error: No password found
+[2023-05-29 20:51:35.348] [info]  Error: No password found
+[2023-05-29 20:51:35.373] [info]  Error: No password found
+[2023-05-29 20:51:35.395] [info]  Error: No password found
+[2023-05-29 20:51:35.403] [info]  Error: No password found
+[2023-05-29 20:51:35.407] [info]  Error: No password found
+[2023-05-29 20:51:35.413] [info]  Error: No password found
+[2023-05-29 20:51:35.418] [info]  Error: No password found
+[2023-05-29 20:51:39.796] [info]  Error: No password found
+[2023-05-29 20:51:39.812] [info]  Error: No password found
+[2023-05-29 20:51:42.456] [info]  Error: No password found
+[2023-05-29 20:51:42.516] [info]  Error: No password found
+[2023-05-29 20:51:42.533] [info]  Error: No password found
+[2023-05-29 20:51:42.559] [info]  Error: No password found
+[2023-05-29 20:51:42.583] [info]  Error: No password found
+[2023-05-29 20:51:42.601] [info]  Error: No password found
+[2023-05-29 20:51:42.621] [info]  Error: No password found
+[2023-05-29 20:51:42.647] [info]  Error: No password found
+[2023-05-29 20:51:42.651] [info]  Error: No password found
+[2023-05-29 20:51:42.654] [info]  Error: No password found
+[2023-05-29 20:51:42.656] [info]  Error: No password found
+[2023-05-29 20:51:42.659] [info]  Error: No password found
+[2023-05-29 20:51:48.633] [info]  Error: No password found
+[2023-05-29 20:51:49.797] [info]  Error: No password found
+[2023-05-29 20:51:49.801] [info]  Error: No password found
+[2023-05-29 20:51:59.796] [info]  Error: No password found
+[2023-05-29 20:52:01.135] [info]  Error: No password found
+[2023-05-29 20:52:08.223] [info]  Error: No password found
+[2023-05-29 20:52:08.276] [info]  Error: No password found
+[2023-05-29 20:52:09.795] [info]  Error: No password found
+[2023-05-29 20:52:19.796] [info]  Error: No password found
+[2023-05-29 20:52:26.022] [info]  Error: No password found
+[2023-05-29 20:52:29.795] [info]  Error: No password found
+[2023-05-29 20:52:32.781] [info]  Error: No password found
+[2023-05-29 20:52:32.880] [info]  Error: No password found
+[2023-05-29 20:52:39.796] [info]  Error: No password found
+[2023-05-29 20:52:43.935] [info]  Error: No password found
+[2023-05-29 20:52:48.415] [info]  Error: No password found
+[2023-05-29 20:52:48.513] [info]  Error: No password found
+[2023-05-29 20:52:49.796] [info]  Error: No password found
+[2023-05-29 20:52:59.797] [info]  Error: No password found
+[2023-05-29 20:53:09.797] [info]  Error: No password found
+[2023-05-29 20:53:19.796] [info]  Error: No password found
+[2023-05-29 20:53:22.200] [info]  Error: No password found
+[2023-05-29 20:53:24.764] [info]  Error: No password found
+[2023-05-29 20:53:24.830] [info]  Error: No password found
+[2023-05-29 20:53:29.798] [info]  Error: No password found
+[2023-05-29 20:53:39.796] [info]  Error: No password found
+[2023-05-29 20:53:49.796] [info]  Error: No password found
+[2023-05-29 20:53:59.796] [info]  Error: No password found
+[2023-05-29 20:54:09.796] [info]  Error: No password found
+[2023-05-29 20:54:19.796] [info]  Error: No password found
+[2023-05-29 20:54:29.797] [info]  Error: No password found
+[2023-05-29 20:54:39.796] [info]  Error: No password found
+[2023-05-29 20:54:49.796] [info]  Error: No password found
+[2023-05-29 20:54:59.796] [info]  Error: No password found
+[2023-05-29 20:55:09.796] [info]  Error: No password found
+[2023-05-29 20:55:15.203] [info]  Error: No password found
+[2023-05-29 20:55:15.249] [info]  Error: No password found
+[2023-05-29 20:55:15.262] [info]  Error: No password found
+[2023-05-29 20:55:19.796] [info]  Error: No password found
+[2023-05-29 20:55:29.796] [info]  Error: No password found
+[2023-05-29 20:55:39.796] [info]  Error: No password found
+[2023-05-29 20:55:49.796] [info]  Error: No password found
+[2023-05-29 20:55:59.796] [info]  Error: No password found
+[2023-05-29 20:56:09.796] [info]  Error: No password found
+[2023-05-29 20:56:19.795] [info]  Error: No password found
+[2023-05-29 20:56:29.796] [info]  Error: No password found
+[2023-05-29 20:56:39.795] [info]  Error: No password found
+[2023-05-29 20:56:49.796] [info]  Error: No password found
+[2023-05-29 20:56:59.796] [info]  Error: No password found
+[2023-05-29 20:57:09.796] [info]  Error: No password found
+[2023-05-29 20:57:19.795] [info]  Error: No password found
+[2023-05-29 20:57:29.796] [info]  Error: No password found
+[2023-05-29 20:57:39.796] [info]  Error: No password found
+[2023-05-29 20:57:49.796] [info]  Error: No password found
+[2023-05-29 20:57:56.826] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46967:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:46771:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:46962:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46915:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:01:28.062] [info]  Error: No password found
+[2023-05-29 21:01:28.103] [info]  Error: No password found
+[2023-05-29 21:01:28.104] [info]  Error: No password found
+[2023-05-29 21:01:28.120] [info]  Error: No password found
+[2023-05-29 21:01:28.145] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44648:59)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:01:28.147] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44474:58)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/bitwarden/app.asar/main.js:44422:58)
+[2023-05-29 21:01:28.565] [info]  Error: No password found
+[2023-05-29 21:01:28.588] [info]  Error: No password found
+[2023-05-29 21:01:28.614] [info]  Error: No password found
+[2023-05-29 21:01:28.637] [info]  Error: No password found
+[2023-05-29 21:01:28.644] [info]  Error: No password found
+[2023-05-29 21:01:28.646] [info]  Error: No password found
+[2023-05-29 21:01:28.653] [info]  Error: No password found
+[2023-05-29 21:01:28.664] [info]  Error: No password found
+[2023-05-29 21:01:28.665] [info]  Error: No password found
+[2023-05-29 21:01:28.666] [info]  Error: No password found
+[2023-05-29 21:01:28.682] [info]  Error: No password found
+[2023-05-29 21:01:28.685] [info]  Error: No password found
+[2023-05-29 21:01:28.692] [info]  Error: No password found
+[2023-05-29 21:01:29.078] [info]  Error: No password found
+[2023-05-29 21:01:31.053] [info]  Error: No password found
+[2023-05-29 21:01:38.093] [info]  Error: No password found
+[2023-05-29 21:01:38.731] [info]  TypeError: Cannot read properties of undefined (reading 'deleteBiometricKey')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44517:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.deleteBiometricKey (/usr/lib/bitwarden/app.asar/main.js:44515:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44699:45)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:01:38.732] [info]  Error: No password found
+[2023-05-29 21:01:38.746] [info]  Error: No password found
+[2023-05-29 21:01:38.752] [info]  Error: No password found
+[2023-05-29 21:01:38.755] [info]  Error: No password found
+[2023-05-29 21:01:38.757] [info]  Error: No password found
+[2023-05-29 21:01:38.771] [info]  Error: No password found
+[2023-05-29 21:01:38.832] [info]  Error: No password found
+[2023-05-29 21:01:38.847] [info]  Error: No password found
+[2023-05-29 21:01:38.860] [info]  Error: No password found
+[2023-05-29 21:01:48.040] [info]  Error: No password found
+[2023-05-29 21:01:48.092] [info]  Error: No password found
+[2023-05-29 21:01:48.271] [info]  Error: No password found
+[2023-05-29 21:01:49.077] [info]  Error: No password found
+[2023-05-29 21:01:57.189] [info]  Error: No password found
+[2023-05-29 21:01:57.204] [info]  Error: No password found
+[2023-05-29 21:01:58.040] [info]  Error: No password found
+[2023-05-29 21:02:08.040] [info]  Error: No password found
+[2023-05-29 21:02:18.039] [info]  Error: No password found
+[2023-05-29 21:02:28.040] [info]  Error: No password found
+[2023-05-29 21:02:33.255] [info]  Error: No password found
+[2023-05-29 21:02:33.293] [info]  Error: No password found
+[2023-05-29 21:02:33.323] [info]  Error: No password found
+[2023-05-29 21:02:38.040] [info]  Error: No password found
+[2023-05-29 21:02:48.040] [info]  Error: No password found
+[2023-05-29 21:02:58.039] [info]  Error: No password found
+[2023-05-29 21:03:08.040] [info]  Error: No password found
+[2023-05-29 21:03:18.040] [info]  Error: No password found
+[2023-05-29 21:03:28.040] [info]  Error: No password found
+[2023-05-29 21:03:38.039] [info]  Error: No password found
+[2023-05-29 21:03:48.040] [info]  Error: No password found
+[2023-05-29 21:03:58.040] [info]  Error: No password found
+[2023-05-29 21:04:08.040] [info]  Error: No password found
+[2023-05-29 21:04:18.039] [info]  Error: No password found
+[2023-05-29 21:04:22.502] [info]  Error: No password found
+[2023-05-29 21:04:28.039] [info]  Error: No password found
+[2023-05-29 21:04:29.021] [info]  Error: No password found
+[2023-05-29 21:04:29.391] [info]  Error: No password found
+[2023-05-29 21:04:38.040] [info]  Error: No password found
+[2023-05-29 21:04:42.858] [info]  Error: No password found
+[2023-05-29 21:04:42.935] [info]  Error: No password found
+[2023-05-29 21:04:48.039] [info]  Error: No password found
+[2023-05-29 21:04:58.040] [info]  Error: No password found
+[2023-05-29 21:05:08.039] [info]  Error: No password found
+[2023-05-29 21:05:18.040] [info]  Error: No password found
+[2023-05-29 21:05:28.039] [info]  Error: No password found
+[2023-05-29 21:05:38.039] [info]  Error: No password found
+[2023-05-29 21:05:48.039] [info]  Error: No password found
+[2023-05-29 21:05:58.040] [info]  Error: No password found
+[2023-05-29 21:06:08.040] [info]  Error: No password found
+[2023-05-29 21:06:18.039] [info]  Error: No password found
+[2023-05-29 21:06:28.039] [info]  Error: No password found
+[2023-05-29 21:06:38.040] [info]  Error: No password found
+[2023-05-29 21:06:48.040] [info]  Error: No password found
+[2023-05-29 21:06:58.039] [info]  Error: No password found
+[2023-05-29 21:07:08.039] [info]  Error: No password found
+[2023-05-29 21:07:18.040] [info]  Error: No password found
+[2023-05-29 21:07:28.040] [info]  Error: No password found
+[2023-05-29 21:07:38.039] [info]  Error: No password found
+[2023-05-29 21:07:48.039] [info]  Error: No password found
+[2023-05-29 21:07:51.893] [info]  Error: No password found
+[2023-05-29 21:07:56.138] [info]  Error: No password found
+[2023-05-29 21:07:56.237] [info]  Error: No password found
+[2023-05-29 21:07:58.040] [info]  Error: No password found
+[2023-05-29 21:08:06.985] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46967:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:46771:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:46962:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46915:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:10:50.904] [info]  Error: No password found
+[2023-05-29 21:10:50.936] [info]  Error: No password found
+[2023-05-29 21:10:50.937] [info]  Error: No password found
+[2023-05-29 21:10:50.952] [info]  Error: No password found
+[2023-05-29 21:10:50.979] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44648:59)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:10:50.981] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44474:58)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/bitwarden/app.asar/main.js:44422:58)
+[2023-05-29 21:10:51.316] [info]  Error: No password found
+[2023-05-29 21:10:51.339] [info]  Error: No password found
+[2023-05-29 21:10:51.361] [info]  Error: No password found
+[2023-05-29 21:10:51.380] [info]  Error: No password found
+[2023-05-29 21:10:51.386] [info]  Error: No password found
+[2023-05-29 21:10:51.388] [info]  Error: No password found
+[2023-05-29 21:10:51.393] [info]  Error: No password found
+[2023-05-29 21:10:51.408] [info]  Error: No password found
+[2023-05-29 21:10:51.409] [info]  Error: No password found
+[2023-05-29 21:10:51.410] [info]  Error: No password found
+[2023-05-29 21:10:51.421] [info]  Error: No password found
+[2023-05-29 21:10:51.427] [info]  Error: No password found
+[2023-05-29 21:10:51.441] [info]  Error: No password found
+[2023-05-29 21:10:51.912] [info]  Error: No password found
+[2023-05-29 21:10:53.893] [info]  Error: No password found
+[2023-05-29 21:10:57.868] [info]  TypeError: Cannot read properties of undefined (reading 'deleteBiometricKey')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44517:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.deleteBiometricKey (/usr/lib/bitwarden/app.asar/main.js:44515:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44699:45)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-29 21:10:57.869] [info]  Error: No password found
+[2023-05-29 21:10:57.891] [info]  Error: No password found
+[2023-05-29 21:10:57.893] [info]  Error: No password found
+[2023-05-29 21:10:57.894] [info]  Error: No password found
+[2023-05-29 21:10:57.895] [info]  Error: No password found
+[2023-05-29 21:10:57.919] [info]  Error: No password found
+[2023-05-29 21:10:57.971] [info]  Error: No password found
+[2023-05-29 21:10:57.990] [info]  Error: No password found
+[2023-05-29 21:10:58.001] [info]  Error: No password found
+[2023-05-29 21:11:00.933] [info]  Error: No password found
+[2023-05-29 21:11:00.962] [info]  Error: No password found
+[2023-05-29 21:11:04.610] [info]  Error: No password found
+[2023-05-29 21:11:10.879] [info]  Error: No password found
+[2023-05-29 21:11:20.879] [info]  Error: No password found
+[2023-05-29 21:11:22.288] [info]  Error: No password found
+[2023-05-29 21:11:22.396] [info]  Error: No password found
+[2023-05-29 21:11:30.880] [info]  Error: No password found
+[2023-05-29 21:11:40.880] [info]  Error: No password found
+[2023-05-29 21:11:50.879] [info]  Error: No password found
+[2023-05-29 21:12:00.879] [info]  Error: No password found
+[2023-05-29 21:12:10.879] [info]  Error: No password found
+[2023-05-29 21:12:15.718] [info]  Error: No password found
+[2023-05-29 21:12:15.750] [info]  Error: No password found
+[2023-05-29 21:12:20.879] [info]  Error: No password found
+[2023-05-29 21:12:30.879] [info]  Error: No password found
+[2023-05-29 21:12:40.879] [info]  Error: No password found
+[2023-05-29 21:12:43.373] [info]  Error: No password found
+[2023-05-29 21:12:50.245] [info]  Error: No password found
+[2023-05-29 21:12:50.332] [info]  Error: No password found
+[2023-05-29 21:12:50.879] [info]  Error: No password found
+[2023-05-29 21:13:00.879] [info]  Error: No password found
+[2023-05-29 21:13:10.879] [info]  Error: No password found
+[2023-05-29 21:13:20.879] [info]  Error: No password found
+[2023-05-29 21:13:30.880] [info]  Error: No password found
+[2023-05-29 21:13:40.879] [info]  Error: No password found
+[2023-05-29 21:13:50.879] [info]  Error: No password found
+[2023-05-29 21:14:00.879] [info]  Error: No password found
+[2023-05-29 21:14:10.880] [info]  Error: No password found
+[2023-05-29 21:14:20.879] [info]  Error: No password found
+[2023-05-29 21:14:30.879] [info]  Error: No password found
+[2023-05-29 21:14:40.879] [info]  Error: No password found
+[2023-05-29 21:14:50.879] [info]  Error: No password found
+[2023-05-29 21:15:00.880] [info]  Error: No password found
+[2023-05-29 21:15:10.879] [info]  Error: No password found
+[2023-05-29 21:15:20.879] [info]  Error: No password found
+[2023-05-29 21:15:30.879] [info]  Error: No password found
+[2023-05-29 21:15:40.878] [info]  Error: No password found
+[2023-05-29 21:15:50.878] [info]  Error: No password found
+[2023-05-29 21:16:00.879] [info]  Error: No password found
+[2023-05-29 21:16:10.878] [info]  Error: No password found
+[2023-05-29 21:16:20.879] [info]  Error: No password found
+[2023-05-29 21:16:30.878] [info]  Error: No password found
+[2023-05-29 21:16:39.454] [info]  Error: No password found
+[2023-05-29 21:16:39.485] [info]  Error: No password found
+[2023-05-29 21:16:40.879] [info]  Error: No password found
+[2023-05-29 21:16:50.880] [info]  Error: No password found
+[2023-05-29 21:17:00.880] [info]  Error: No password found
+[2023-05-29 21:17:10.878] [info]  Error: No password found
+[2023-05-29 21:17:20.880] [info]  Error: No password found
+[2023-05-29 21:17:30.879] [info]  Error: No password found
+[2023-05-29 21:17:40.879] [info]  Error: No password found
+[2023-05-29 21:17:50.879] [info]  Error: No password found
+[2023-05-29 21:18:00.878] [info]  Error: No password found
+[2023-05-29 21:18:10.879] [info]  Error: No password found
+[2023-05-29 21:18:20.879] [info]  Error: No password found
+[2023-05-29 21:18:30.880] [info]  Error: No password found
+[2023-05-29 21:18:40.879] [info]  Error: No password found
+[2023-05-29 21:18:50.878] [info]  Error: No password found
+[2023-05-29 21:19:00.878] [info]  Error: No password found
+[2023-05-29 21:19:10.878] [info]  Error: No password found
+[2023-05-29 21:19:20.482] [info]  Error: No password found
+[2023-05-29 21:19:20.879] [info]  Error: No password found
+[2023-05-29 21:19:30.879] [info]  Error: No password found
+[2023-05-29 21:19:40.879] [info]  Error: No password found
+[2023-05-29 21:19:50.879] [info]  Error: No password found
+[2023-05-29 21:20:00.879] [info]  Error: No password found
+[2023-05-29 21:20:10.879] [info]  Error: No password found
+[2023-05-29 21:20:20.878] [info]  Error: No password found
+[2023-05-29 21:20:30.879] [info]  Error: No password found
+[2023-05-29 21:20:40.879] [info]  Error: No password found
+[2023-05-29 21:20:50.879] [info]  Error: No password found
+[2023-05-29 21:20:57.462] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46967:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:46771:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:46962:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46915:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+[2023-05-30 11:07:09.593] [info]  Error: No password found
+[2023-05-30 11:07:09.625] [info]  Error: No password found
+[2023-05-30 11:07:09.627] [info]  Error: No password found
+[2023-05-30 11:07:09.641] [info]  Error: No password found
+[2023-05-30 11:07:09.666] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44648:59)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-30 11:07:09.668] [info]  TypeError: Cannot read properties of undefined (reading 'osSupportsBiometric')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44464:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.osSupportsBiometric (/usr/lib/bitwarden/app.asar/main.js:44463:16)
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44474:58)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/bitwarden/app.asar/main.js:44422:58)
+[2023-05-30 11:07:10.118] [info]  Error: No password found
+[2023-05-30 11:07:10.137] [info]  Error: No password found
+[2023-05-30 11:07:10.161] [info]  Error: No password found
+[2023-05-30 11:07:10.185] [info]  Error: No password found
+[2023-05-30 11:07:10.186] [info]  Error: No password found
+[2023-05-30 11:07:10.187] [info]  Error: No password found
+[2023-05-30 11:07:10.212] [info]  Error: No password found
+[2023-05-30 11:07:10.214] [info]  Error: No password found
+[2023-05-30 11:07:10.216] [info]  Error: No password found
+[2023-05-30 11:07:10.229] [info]  Error: No password found
+[2023-05-30 11:07:10.241] [info]  Error: No password found
+[2023-05-30 11:07:10.241] [info]  Error: No password found
+[2023-05-30 11:07:10.255] [info]  Error: No password found
+[2023-05-30 11:07:10.592] [info]  Error: No password found
+[2023-05-30 11:07:12.571] [info]  Error: No password found
+[2023-05-30 11:07:19.612] [info]  Error: No password found
+[2023-05-30 11:07:24.019] [info]  Error: No password found
+[2023-05-30 11:07:24.021] [info]  TypeError: Cannot read properties of undefined (reading 'deleteBiometricKey')
+    at BiometricsService.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44517:55)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44425:71
+    at new Promise (<anonymous>)
+    at biometrics_service_awaiter (/usr/lib/bitwarden/app.asar/main.js:44421:12)
+    at BiometricsService.deleteBiometricKey (/usr/lib/bitwarden/app.asar/main.js:44515:16)
+    at DesktopCredentialStorageListener.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:44699:45)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:44576:71
+    at new Promise (<anonymous>)
+[2023-05-30 11:07:24.034] [info]  Error: No password found
+[2023-05-30 11:07:24.060] [info]  Error: No password found
+[2023-05-30 11:07:24.061] [info]  Error: No password found
+[2023-05-30 11:07:24.063] [info]  Error: No password found
+[2023-05-30 11:07:24.088] [info]  Error: No password found
+[2023-05-30 11:07:24.133] [info]  Error: No password found
+[2023-05-30 11:07:24.156] [info]  Error: No password found
+[2023-05-30 11:07:24.167] [info]  Error: No password found
+[2023-05-30 11:07:29.558] [info]  Error: No password found
+[2023-05-30 11:07:29.638] [info]  Error: No password found
+[2023-05-30 11:07:39.559] [info]  Error: No password found
+[2023-05-30 11:07:49.559] [info]  Error: No password found
+[2023-05-30 11:07:59.559] [info]  Error: No password found
+[2023-05-30 11:08:09.559] [info]  Error: No password found
+[2023-05-30 11:08:19.558] [info]  Error: No password found
+[2023-05-30 11:08:29.559] [info]  Error: No password found
+[2023-05-30 11:08:39.559] [info]  Error: No password found
+[2023-05-30 11:08:40.826] [info]  Error: No password found
+[2023-05-30 11:08:44.940] [info]  Error: No password found
+[2023-05-30 11:08:49.295] [info]  Error: No password found
+[2023-05-30 11:08:49.357] [info]  Error: No password found
+[2023-05-30 11:08:49.558] [info]  Error: No password found
+[2023-05-30 11:08:59.558] [info]  Error: No password found
+[2023-05-30 11:09:09.558] [info]  Error: No password found
+[2023-05-30 11:09:19.559] [info]  Error: No password found
+[2023-05-30 11:09:29.559] [info]  Error: No password found
+[2023-05-30 11:09:39.558] [info]  Error: No password found
+[2023-05-30 11:09:49.559] [info]  Error: No password found
+[2023-05-30 11:09:59.559] [info]  Error: No password found
+[2023-05-30 11:10:09.558] [info]  Error: No password found
+[2023-05-30 11:10:19.559] [info]  Error: No password found
+[2023-05-30 11:10:29.559] [info]  Error: No password found
+[2023-05-30 11:10:39.559] [info]  Error: No password found
+[2023-05-30 11:10:49.559] [info]  Error: No password found
+[2023-05-30 11:10:59.559] [info]  Error: No password found
+[2023-05-30 11:11:09.559] [info]  Error: No password found
+[2023-05-30 11:11:19.559] [info]  Error: No password found
+[2023-05-30 11:11:29.559] [info]  Error: No password found
+[2023-05-30 11:11:39.558] [info]  Error: No password found
+[2023-05-30 11:11:49.559] [info]  Error: No password found
+[2023-05-30 11:11:59.559] [info]  Error: No password found
+[2023-05-30 11:12:09.558] [info]  Error: No password found
+[2023-05-30 11:12:19.559] [info]  Error: No password found
+[2023-05-30 11:12:29.558] [info]  Error: No password found
+[2023-05-30 11:12:39.558] [info]  Error: No password found
+[2023-05-30 11:12:49.559] [info]  Error: No password found
+[2023-05-30 11:12:59.559] [info]  Error: No password found
+[2023-05-30 11:13:09.558] [info]  Error: No password found
+[2023-05-30 11:13:19.558] [info]  Error: No password found
+[2023-05-30 11:13:29.558] [info]  Error: No password found
+[2023-05-30 11:13:39.558] [info]  Error: No password found
+[2023-05-30 11:13:49.559] [info]  Error: No password found
+[2023-05-30 11:13:59.559] [info]  Error: No password found
+[2023-05-30 11:14:09.558] [info]  Error: No password found
+[2023-05-30 11:14:19.558] [info]  Error: No password found
+[2023-05-30 11:14:29.559] [info]  Error: No password found
+[2023-05-30 11:14:39.558] [info]  Error: No password found
+[2023-05-30 11:14:49.558] [info]  Error: No password found
+[2023-05-30 11:14:59.558] [info]  Error: No password found
+[2023-05-30 11:15:09.558] [info]  Error: No password found
+[2023-05-30 11:15:19.558] [info]  Error: No password found
+[2023-05-30 11:15:29.558] [info]  Error: No password found
+[2023-05-30 11:15:39.559] [info]  Error: No password found
+[2023-05-30 11:15:49.559] [info]  Error: No password found
+[2023-05-30 11:15:59.558] [info]  Error: No password found
+[2023-05-30 11:16:09.558] [info]  Error: No password found
+[2023-05-30 11:16:19.558] [info]  Error: No password found
+[2023-05-30 11:16:29.558] [info]  Error: No password found
+[2023-05-30 11:16:39.558] [info]  Error: No password found
+[2023-05-30 11:16:49.559] [info]  Error: No password found
+[2023-05-30 11:16:59.558] [info]  Error: No password found
+[2023-05-30 11:17:09.559] [info]  Error: No password found
+[2023-05-30 11:17:19.559] [info]  Error: No password found
+[2023-05-30 11:17:29.558] [info]  Error: No password found
+[2023-05-30 11:17:39.559] [info]  Error: No password found
+[2023-05-30 11:17:49.559] [info]  Error: No password found
+[2023-05-30 11:17:59.559] [info]  Error: No password found
+[2023-05-30 11:18:09.559] [info]  Error: No password found
+[2023-05-30 11:18:19.559] [info]  Error: No password found
+[2023-05-30 11:18:29.559] [info]  Error: No password found
+[2023-05-30 11:18:39.558] [info]  Error: No password found
+[2023-05-30 11:18:49.559] [info]  Error: No password found
+[2023-05-30 11:18:59.559] [info]  Error: No password found
+[2023-05-30 11:19:09.558] [info]  Error: No password found
+[2023-05-30 11:19:19.559] [info]  Error: No password found
+[2023-05-30 11:19:29.558] [info]  Error: No password found
+[2023-05-30 11:19:39.559] [info]  Error: No password found
+[2023-05-30 11:19:49.560] [info]  Error: No password found
+[2023-05-30 11:19:59.558] [info]  Error: No password found
+[2023-05-30 11:20:09.559] [info]  Error: No password found
+[2023-05-30 11:20:19.559] [info]  Error: No password found
+[2023-05-30 11:20:29.559] [info]  Error: No password found
+[2023-05-30 11:20:39.559] [info]  Error: No password found
+[2023-05-30 11:20:49.559] [info]  Error: No password found
+[2023-05-30 11:20:59.559] [info]  Error: No password found
+[2023-05-30 11:21:09.559] [info]  Error: No password found
+[2023-05-30 11:21:19.559] [info]  Error: No password found
+[2023-05-30 11:21:29.559] [info]  Error: No password found
+[2023-05-30 11:21:39.558] [info]  Error: No password found
+[2023-05-30 11:21:41.377] [info]  Error: No password found
+[2023-05-30 11:21:42.055] [info]  Error: No password found
+[2023-05-30 11:21:42.079] [info]  Error: No password found
+[2023-05-30 11:21:42.106] [info]  Error: No password found
+[2023-05-30 11:21:42.134] [info]  Error: No password found
+[2023-05-30 11:21:42.154] [info]  Error: No password found
+[2023-05-30 11:21:42.173] [info]  Error: No password found
+[2023-05-30 11:21:42.204] [info]  Error: No password found
+[2023-05-30 11:21:42.215] [info]  Error: No password found
+[2023-05-30 11:21:42.222] [info]  Error: No password found
+[2023-05-30 11:21:42.227] [info]  Error: No password found
+[2023-05-30 11:21:42.231] [info]  Error: No password found
+[2023-05-30 11:21:42.235] [info]  Error: No password found
+[2023-05-30 11:21:49.559] [info]  Error: No password found
+[2023-05-30 11:21:49.602] [info]  Error: No password found
+[2023-05-30 11:21:59.559] [info]  Error: No password found
+[2023-05-30 11:22:01.406] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46967:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:46771:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:46962:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:46915:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:46775:71
+    at new Promise (<anonymous>)

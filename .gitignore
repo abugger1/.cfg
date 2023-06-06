@@ -1,6 +1,7 @@
-
+ani-cli/*
 .cache/appstream/*
 .local/share/gwenview/*
+.local/share/pikaur/*
 .cache/systemsettings/*
 .config/menus/*
 .cache/winetricks/*
