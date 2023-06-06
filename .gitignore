@@ -6,6 +6,7 @@ ani-cli/*
 .cache/pikaur/*
 .cachejj/plasma-systemmonitor/*
 .cache/ani-cli/*
+.cache/kcrash-metadata/*
 .local/share/gwenview/*
 .local/share/pikaur/*
 .local/share/lvim/*
