@@ -1,5 +1,11 @@
 ani-cli/*
 .cache/appstream/*
+.cache/wine/*
+.cache/KDE/itinerary/*
+.cache/org.kde.ki18n/*
+.cache/pikaur/*
+.cachejj/plasma-systemmonitor/*
+.cache/ani-cli/*
 .local/share/gwenview/*
 .local/share/pikaur/*
 .local/share/lvim/*
