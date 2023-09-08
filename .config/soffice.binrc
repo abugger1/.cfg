@@ -1,0 +1,8 @@
+[FileDialogSize]
+2 screens: Height=612
+2 screens: Width=968
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/Haws_Paws_Docs/Informational E-mail.odt,file:$HOME/Documents/Haws_Paws_Docs/Training agreement.odt
+Recent URLs[$e]=file:$HOME/Documents/Haws_Paws_Docs/,file:$HOME/Documents/,file:$HOME/
+detailViewIconSize=16

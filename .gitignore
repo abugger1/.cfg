@@ -1,5 +1,6 @@
 ani-cli/*
 .cache/appstream/*
+.cache/*
 .cache/wine/*
 .cache/KDE/itinerary/*
 .cache/org.kde.ki18n/*
@@ -17,6 +18,8 @@ ani-cli/*
 .cache/winetricks/*
 .config/cef_user_data/*
 .config/lutris/*
+.cargo/*
+.cfg/*
 .local/share/Trash/*
 .local/share/desktop-directories/*
 .local/share/flatpak/*
@@ -92,6 +95,7 @@ Games/*
 .gnome/*
 .mozilla/*
 .npm/*
+.nv/*
 .pki/*
 .rustup/*
 .ssh/*
@@ -116,7 +120,7 @@ repos/*
 .config/discord/*
 .config/dconf/user
 .config/dolphinrc
-config/emaildefaults
+.config/emaildefaults
 .config/gwenviewrc
 .config/htop/*
 .config/kactivitymanagerd-statsrc
@@ -178,7 +182,7 @@ Downloads/KvGlass/*
 .local/include/python3.10/greenlet/greenlet.h
 .local/share/RecentDocuments/FiraCode.zip.desktop
 .local/share/RecentDocuments/FiraCode.zip[2].desktop
-".local/share/RecentDocuments/Hoth Landscape Stormy Atmosphere of Merphlyn.jpg.desktop"
+# .local/share/RecentDocuments/Hoth Landscape Stormy Atmosphere of Merphlyn.jpg.desktop"
 .local/share/RecentDocuments/handoff.desktop
 .local/share/applications/defaults.list
 .local/share/applications/lvim.desktop
@@ -191,16 +195,7 @@ Downloads/KvGlass/*
 .local/share/flatpak/repo/config
 .local/share/gvfs-metadata/home
 .local/share/gvfs-metadata/home-445f7e01.log
-.local/share/kactivitymanagerd/resources/database
-.local/share/kactivitymanagerd/resources/database-shm
-.local/share/kactivitymanagerd/resources/database-wal
-.local/share/kactivitymanagerd/resources/errors.log
-.local/share/kactivitymanagerd/resources/test-backup/database
-.local/share/kactivitymanagerd/resources/test-backup/database-shm
-.local/share/kactivitymanagerd/resources/test-backup/database-wal
-.local/share/kactivitymanagerd/resources/working-backup/database
-.local/share/kactivitymanagerd/resources/working-backup/database-shm
-.local/share/kactivitymanagerd/resources/working-backup/database-wal
+.local/share/kactivitymanagerd/resources/*
 .local/share/kate/anonymous.katesession
 .local/share/kded5/keyboard/session/layout_memory.xml
 .local/share/klipper/history2.lst

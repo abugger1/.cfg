@@ -3,9 +3,9 @@
 2 screens: Width=1728
 
 [KFileDialog Settings]
-Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:$HOME/Downloads/Pictures/cropped-1920-1080-1054776.jpg,file:///WdBlack/Users/sshep/Documents/Art Resources/Foot_Prints_in_Sand.jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Asian model (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Sad girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
-Recent URLs[$e]=file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/,file:///WdBlack/Users/sshep/Pictures/Ultrawide/,file:///WdBlack/Users/sshep/Pictures/,file:///WdBlack/Users/sshep/Documents/Art Resources/,file:$HOME/Downloads/Pictures/
-detailViewIconSize=128
+Recent Files[$e]=canopy_stalker_by_lhuneart_ddzcq83-pre.jpg,file:$HOME/Downloads/Pictures/cropped-1920-1080-913239.jpg,file:$HOME/Downloads/Pictures/cropped-1920-1080-1054776.jpg,file:///WdBlack/Users/sshep/Documents/Art Resources/Foot_Prints_in_Sand.jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Asian model (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Sad girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Pictures/Ultrawide/Girl (3440x1440).jpg,file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/Wallpapers for 219 screens 3440x1440 goodnessRay HardForum.jpg
+Recent URLs[$e]=file:///WdBlack/Users/sshep/Downloads/Photos/UltraWide/,file:///WdBlack/Users/sshep/Pictures/Ultrawide/,file:///WdBlack/Users/sshep/Pictures/,file:///WdBlack/Users/sshep/Documents/Art Resources/,file:$HOME/Downloads/Pictures/,file:$HOME/Downloads/
+detailViewIconSize=256
 
 [KPropertiesDialog]
 HDMI-1 Height 3840x2160=465

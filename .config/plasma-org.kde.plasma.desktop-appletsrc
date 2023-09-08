@@ -118,7 +118,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][27][Applets][55][Configuration]
-PreloadWeight=15
+PreloadWeight=40
 popupHeight=500
 popupWidth=440
 
@@ -180,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][35][Applets][38][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][35][Applets][39][Configuration]
 PreloadWeight=42
@@ -239,7 +239,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][35][Applets][49][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][35][Applets][50][Configuration]
 PreloadWeight=42
@@ -324,7 +324,7 @@ DialogWidth=760
 
 [Containments][61][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/home/sshep/Downloads/Pictures/cropped-1920-1080-1054776.jpg
+Image=/home/sshep/Downloads/Pictures/cropped-1920-1080-913239.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments27Appletsts][57][Configuration][General]
