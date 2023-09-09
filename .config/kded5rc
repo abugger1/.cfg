@@ -41,7 +41,7 @@ autoload=true
 autoload=true
 
 [Module-kmixd]
-autoload=true
+autoload=false
 
 [Module-kscreen]
 autoload=true
